@@ -1,9 +1,70 @@
-import React, { memo } from "react";
+import React, { memo, useEffect, useState } from "react";
 import Link from "next/link";
 import { SITE_STATS } from "@/lib/constants";
 import "./HeroSection.css";
 
+const ROTATING_LINES = [
+  "Web Development",
+  "Mobile App Development",
+  "Custom Software",
+  "Cloud Solutions",
+  "Digital Marketing",
+];
+
+/** How long each service stays fully visible before the next transition */
+const ROTATE_HOLD_MS = 3000;
+const ROTATE_ANIM_MS = 500;
+
 const HeroSection = () => {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [prevIndex, setPrevIndex] = useState(null);
+  const [reduceMotion, setReduceMotion] = useState(false);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return undefined;
+
+    const media = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const syncMotionPreference = () => setReduceMotion(media.matches);
+
+    syncMotionPreference();
+    media.addEventListener("change", syncMotionPreference);
+
+    return () => media.removeEventListener("change", syncMotionPreference);
+  }, []);
+
+  useEffect(() => {
+    if (reduceMotion) return undefined;
+
+    const timer = window.setInterval(() => {
+      setActiveIndex((current) => {
+        const next = (current + 1) % ROTATING_LINES.length;
+        setPrevIndex(current);
+        return next;
+      });
+    }, ROTATE_HOLD_MS);
+
+    return () => window.clearInterval(timer);
+  }, [reduceMotion]);
+
+  useEffect(() => {
+    if (prevIndex === null || reduceMotion) return undefined;
+
+    const clearPrev = window.setTimeout(() => {
+      setPrevIndex(null);
+    }, ROTATE_ANIM_MS);
+
+    return () => window.clearTimeout(clearPrev);
+  }, [prevIndex, reduceMotion]);
+
+  const lineClassName = (index) => {
+    if (reduceMotion) {
+      return `home-hero__rotate-line${index === 0 ? " is-active" : ""}`;
+    }
+    if (index === activeIndex) return "home-hero__rotate-line is-active";
+    if (index === prevIndex) return "home-hero__rotate-line is-exit";
+    return "home-hero__rotate-line";
+  };
+
   return (
     <div className="home-hero relative w-full overflow-hidden">
       <div className="home-hero__glow home-hero__glow--left" aria-hidden="true" />
@@ -14,10 +75,28 @@ const HeroSection = () => {
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <p className="home-hero__brand mb-5">KOLI Infotech</p>
 
-          <h1 className="commanFont text-[clamp(1.85rem,4.5vw,3.15rem)] font-extrabold leading-[1.15] tracking-tight text-brand-900 mb-5">
-            Custom Software &amp; Digital Solutions That{" "}
-            <span className="text-brand-500">Grow Your Business</span>
+          <h1 className="commanFont text-[clamp(1.85rem,4.5vw,3.15rem)] font-extrabold leading-[1.15] tracking-tight text-brand-900 mb-3 md:mb-4">
+            Expert IT Services at the Best Cost
           </h1>
+
+          <div
+            className="home-hero__rotate mb-5 md:mb-6"
+            aria-live="polite"
+            aria-atomic="true"
+          >
+            <p className="sr-only">
+              We specialize in {ROTATING_LINES.join(", ")}. Currently showing{" "}
+              {ROTATING_LINES[reduceMotion ? 0 : activeIndex]}.
+            </p>
+
+            <div className="home-hero__rotate-viewport" aria-hidden="true">
+              {ROTATING_LINES.map((line, index) => (
+                <span key={line} className={lineClassName(index)}>
+                  {line}
+                </span>
+              ))}
+            </div>
+          </div>
 
           <p className="subText commanFont text-[clamp(1rem,1.8vw,1.2rem)] text-slate-600 leading-relaxed max-w-2xl mx-auto mb-9">
             From startups to enterprises — we design, build, and scale web apps, mobile apps,
@@ -57,8 +136,6 @@ const HeroSection = () => {
           </div>
         </div>
       </section>
-
-      
     </div>
   );
 };

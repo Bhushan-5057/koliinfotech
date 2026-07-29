@@ -1083,8 +1083,40 @@ input {
 }
 
 .key-clauses p,
-li {
+.key-clauses li {
   float: left;
+}
+
+/* Legal pages: keep lists stacked and prevent global float/list resets */
+.legal-doc ul {
+  display: block;
+  list-style-type: disc;
+  list-style-position: outside;
+  padding-left: 1.5rem;
+  margin: 0;
+  clear: both;
+}
+
+.legal-doc li {
+  display: list-item;
+  float: none !important;
+  clear: both;
+  width: 100%;
+  list-style-type: disc;
+}
+
+.legal-doc section {
+  display: block;
+  clear: both;
+  width: 100%;
+}
+
+.legal-doc h2,
+.legal-doc p {
+  display: block;
+  float: none;
+  clear: both;
+  width: 100%;
 }
 
 .data-li li {

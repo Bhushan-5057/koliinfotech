@@ -9,6 +9,9 @@ function getMailConfig() {
   const pass = String(process.env.CONTACT_EMAIL_PASSWORD || "")
     .trim()
     .replace(/^['"]|['"]$/g, "");
+  // Owner inbox (primary). Falls back to the authenticated mailbox.
+  const to =
+    String(process.env.CONTACT_EMAIL_TO || "").trim() || user;
   const cc = String(process.env.CONTACT_EMAIL_CC || "").trim();
   const tlsServername =
     String(process.env.CONTACT_EMAIL_TLS_SERVERNAME || "").trim() || undefined;
@@ -22,7 +25,7 @@ function getMailConfig() {
     throw new Error(`Missing mail configuration: ${missing.join(", ")}`);
   }
 
-  return { host, port, user, pass, cc, tlsServername };
+  return { host, port, user, pass, to, cc, tlsServername };
 }
 
 let transporter = null;
@@ -74,7 +77,7 @@ export async function sendContactEmails({
   description,
   service,
 }) {
-  const { user, cc } = getMailConfig();
+  const { user, to, cc } = getMailConfig();
   const mailer = getTransporter();
   const templateVars = buildTemplateVars({
     fullName,
@@ -87,10 +90,10 @@ export async function sendContactEmails({
   const adminHtml = buildAdminEmailHtml(templateVars);
   const thankYouHtml = buildThankYouEmailHtml(templateVars);
 
-  // 1) Notify admin / business inbox first
+  // 1) Notify owner inbox (e.g. ajay@) + optional CC (e.g. contact@)
   const adminInfo = await mailer.sendMail({
     from: `"KOLI Infotech Website" <${user}>`,
-    to: user,
+    to,
     ...(cc ? { cc } : {}),
     replyTo: email,
     subject: `New inquiry from ${fullName} — KOLI Infotech`,
@@ -101,20 +104,22 @@ export async function sendContactEmails({
     },
   });
 
-  // 2) Thank-you to the visitor (must use authenticated mailbox as From)
+  // 2) Thank-you to the visitor (From = authenticated webmail: contact@)
   const thankYouInfo = await mailer.sendMail({
     from: `"KOLI Infotech" <${user}>`,
     to: email,
     replyTo: user,
     subject: "Thank You for Contacting Us | KOLI Infotech",
     html: thankYouHtml,
-    text: `Dear ${fullName},\n\nThank you for reaching out through our website. Your message has been successfully received and our team is currently reviewing your request.\n\nBest regards,\nKOLI Infotech Team\ninfo@koliinfotech.com`,
+    text: `Dear ${fullName},\n\nThank you for reaching out through our website. Your message has been successfully received and our team is currently reviewing your request.\n\nBest regards,\nKOLI Infotech Team\n${user}`,
     headers: {
       "X-KOLI-Mail-Type": "contact-thankyou",
     },
   });
 
   console.info("[mailer] contact emails accepted", {
+    adminTo: to,
+    adminCc: cc || null,
     adminMessageId: adminInfo.messageId,
     adminAccepted: adminInfo.accepted,
     adminRejected: adminInfo.rejected,
@@ -122,6 +127,7 @@ export async function sendContactEmails({
     thankYouAccepted: thankYouInfo.accepted,
     thankYouRejected: thankYouInfo.rejected,
     thankYouTo: email,
+    thankYouFrom: user,
   });
 
   if (
