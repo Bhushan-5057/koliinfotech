@@ -1,0 +1,202 @@
+[
+  {
+    "category": "Frontend",
+    "technologies": [
+      {
+        "id": 1,
+        "title": "React",
+        "image": "react.svg"
+      },
+      {
+        "id": 2,
+        "title": "Angular",
+        "image": "angularjs.webp"
+      },
+      {
+        "id": 3,
+        "title": "Vue.js",
+        "image": "vuejs.webp"
+      },
+      {
+        "id": 5,
+        "title": "Next.js",
+        "image": "nextjs.webp"
+      },
+      {
+        "id": 6,
+        "title": "JavaScript",
+        "image": "javascript.webp"
+      },
+      {
+        "id": 7,
+        "title": "HTML",
+        "image": "html.webp"
+      },
+      {
+        "id": 8,
+        "title": "CSS",
+        "image": "css3.webp"
+      },
+      {
+        "id": 9,
+        "title": "TypeScript",
+        "image": "typescript.svg"
+      }
+    ]
+  },
+  {
+    "category": "Backend",
+    "technologies": [
+      {
+        "id": 10,
+        "title": "Node.js",
+        "image": "nodejs.webp"
+      },
+      {
+        "id": 11,
+        "title": "Express.js",
+        "image": "express-js.webp"
+      },
+      {
+        "id": 12,
+        "title": "Python",
+        "image": "python.webp"
+      },
+      {
+        "id": 13,
+        "title": "Laravel",
+        "image": "laravel.webp"
+      },
+      {
+        "id": 14,
+        "title": "Java",
+        "image": "java.webp"
+      },
+      {
+        "id": 15,
+        "title": "PHP",
+        "image": "php.webp"
+      }
+    ]
+  },
+  {
+    "category": "Mobile Development",
+    "technologies": [
+      {
+        "id": 16,
+        "title": "React Native",
+        "image": "react.svg"
+      },
+      {
+        "id": 17,
+        "title": "Flutter",
+        "image": "flutter.webp"
+      },
+      {
+        "id": 18,
+        "title": "Android",
+        "image": "android.webp"
+      },
+      {
+        "id": 19,
+        "title": "iOS",
+        "image": "apple.webp"
+      }
+    ]
+  },
+  {
+    "category": "Database",
+    "technologies": [
+      {
+        "id": 20,
+        "title": "MongoDB",
+        "image": "mongodb.webp"
+      },
+      {
+        "id": 21,
+        "title": "PostgreSQL",
+        "image": "postgreashsql.webp"
+      },
+      {
+        "id": 22,
+        "title": "MySQL",
+        "image": "mysql.webp"
+      },
+      {
+        "id": 23,
+        "title": "Firebase",
+        "image": "firebase.webp"
+      }
+    ]
+  },
+  {
+    "category": "DevOps & Cloud",
+    "technologies": [
+      {
+        "id": 24,
+        "title": "AWS",
+        "image": "aws.webp"
+      },
+      {
+        "id": 25,
+        "title": "Docker",
+        "image": "docker.svg"
+      },
+      {
+        "id": 26,
+        "title": "Kubernetes",
+        "image": "kubernets.webp"
+      }
+    ]
+  },
+  {
+    "category": "Project Management",
+    "technologies": [
+      {
+        "id": 27,
+        "title": "Asana",
+        "image": "asana.webp"
+      },
+      {
+        "id": 28,
+        "title": "Jira",
+        "image": "jira.webp"
+      },
+      {
+        "id": 29,
+        "title": "Trello",
+        "image": "trello.webp"
+      },
+      {
+        "id": 30,
+        "title": "ClickUp",
+        "image": "clickup.webp"
+      }
+    ]
+  },
+  {
+    "category": "Communication",
+    "technologies": [
+      {
+        "id": 31,
+        "title": "Microsoft Teams",
+        "image": "microsoftteam.webp"
+      },
+      {
+        "id": 32,
+        "title": "Slack",
+        "image": "slack.webp"
+      },
+      {
+        "id": 33,
+        "title": "Google Meet",
+        "image": "google-meet.svg"
+      },
+      {
+        "id": 34,
+        "title": "Zoom",
+        "image": "Zoom.webp"
+      }
+    ]
+  }
+]

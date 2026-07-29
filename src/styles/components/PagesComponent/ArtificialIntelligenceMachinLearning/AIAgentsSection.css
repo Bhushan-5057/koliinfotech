@@ -1,0 +1,228 @@
+.ai-agents-section {
+            padding: clamp(3.5rem, 8vw, 6rem) 0;
+            background: #ffffff;
+            position: relative;
+            overflow: hidden;
+          }
+          .agents-badge {
+            display: inline-block;
+            background: rgba(63, 104, 159, 0.08);
+            color: #3f689f;
+            padding: 8px 24px;
+            border-radius: 50px;
+            font-size: 0.72rem;
+            font-weight: 800;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            border: 1px solid rgba(63, 104, 159, 0.1);
+            margin: 0 0 1.25rem;
+          }
+          .agents-heading {
+            font-size: clamp(1.55rem, 4vw, 2.6rem);
+            font-weight: 850;
+            color: #1e293b;
+            letter-spacing: -0.02em;
+            line-height: 1.25;
+            margin: 0 0 0.5rem;
+          }
+          .text-accent { color: #3f689f; }
+          .agents-divider {
+            width: 65px;
+            height: 5px;
+            background: linear-gradient(90deg, #3f689f, #5b9bd5);
+            border-radius: 5px;
+          }
+          .agents-subtitle {
+            font-size: 1.1rem;
+            color: #64748b;
+            line-height: 1.8;
+            max-width: 900px;
+            font-weight: 500;
+          }
+
+          /* Agent Type Cards */
+          .agent-type-card {
+            padding: 40px 30px;
+            border-radius: 2px;
+            border: 1px solid rgba(0,0,0,0.04);
+            height: 100%;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.01);
+          }
+          .agent-type-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 40px rgba(63, 104, 159, 0.08);
+            border-color: rgba(63, 104, 159, 0.1);
+          }
+          .agent-type-icon {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+          }
+          .agent-type-title {
+            font-size: 1.2rem;
+            font-weight: 850;
+            color: #1e293b;
+            margin-bottom: 15px;
+            line-height: 1.3;
+          }
+          .agent-type-desc {
+            font-size: 0.92rem;
+            color: #64748b;
+            line-height: 1.6;
+            margin: 0;
+            font-weight: 500;
+          }
+
+          /* Tactical Blueprint Capabilities Section */
+          .capabilities-wrap {
+            border-top: 1px solid rgba(0,0,0,0.03);
+            background: rgba(248, 250, 252, 0.5);
+            margin: 0;
+            padding: clamp(2.5rem, 5vw, 4rem) 0 clamp(1rem, 3vw, 2rem);
+            border-radius: 16px;
+          }
+          .sub-heading {
+            font-size: 2rem;
+            font-weight: 850;
+            color: #1e293b;
+            letter-spacing: -0.02em;
+          }
+          .cap-subtitle {
+            font-size: 0.95rem;
+            color: #64748b;
+            font-weight: 600;
+            max-width: 500px;
+          }
+          .cap-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+          }
+          .cap-grid-item {
+            display: flex;
+          }
+          .cap-tactical-box {
+            position: relative;
+            display: flex;
+            align-items: center;
+            background: #ffffff;
+            padding: 28px 30px;
+            border-radius: 4px;
+            width: 100%;
+            height: 100%;
+            border: 1px dashed rgba(63, 104, 159, 0.2);
+            transition: all 0.4s ease;
+            overflow: hidden;
+          }
+          .cap-tactical-box:hover {
+            background: #ffffff;
+            border-style: solid;
+            border-color: #3f689f;
+            box-shadow: 0 15px 35px rgba(63, 104, 159, 0.08);
+            transform: translateY(-5px);
+          }
+          .tactical-corner {
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            border: 2px solid #3f689f;
+            opacity: 0.3;
+            transition: all 0.4s ease;
+          }
+          .cap-tactical-box:hover .tactical-corner {
+            opacity: 1;
+            width: 10px;
+            height: 10px;
+          }
+          .top-left { top: 0; left: 0; border-right: 0; border-bottom: 0; }
+          .top-right { top: 0; right: 0; border-left: 0; border-bottom: 0; }
+          .bottom-left { bottom: 0; left: 0; border-right: 0; border-top: 0; }
+          .bottom-right { bottom: 0; right: 0; border-left: 0; border-top: 0; }
+
+          .cap-icon-box {
+            width: 44px;
+            height: 44px;
+            min-width: 44px;
+            background: rgba(63, 104, 159, 0.05);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            transition: all 0.4s ease;
+          }
+          .cap-tactical-box:hover .cap-icon-box {
+            background: #3f689f;
+          }
+          .cap-tactical-box:hover .cap-icon-box svg {
+            stroke: #ffffff !important;
+            color: #ffffff !important;
+          }
+          .cap-title {
+            font-size: 1rem;
+            font-weight: 800;
+            color: #1e293b;
+            margin: 0;
+            line-height: 1.4;
+            letter-spacing: -0.01em;
+          }
+
+          @media (max-width: 991px) {
+            .ai-agents-section { padding: clamp(2.5rem, 6vw, 3.75rem) 0; }
+            .agent-type-card { padding: 28px 20px; }
+            .agents-heading { font-size: 1.75rem; }
+            .sub-heading { font-size: 1.55rem; }
+            .cap-grid {
+              grid-template-columns: repeat(2, 1fr);
+              gap: 18px;
+            }
+            .cap-tactical-box {
+              padding: 22px 18px;
+            }
+          }
+
+          @media (max-width: 768px) {
+            .cap-grid {
+              grid-template-columns: 1fr;
+              gap: 14px;
+            }
+            .cap-tactical-box {
+              padding: 18px 16px;
+            }
+            .cap-icon-box {
+              width: 38px;
+              height: 38px;
+              min-width: 38px;
+              margin-right: 14px;
+            }
+            .cap-title {
+              font-size: 0.95rem;
+            }
+          }
+
+          @media (max-width: 576px) {
+            .agents-badge {
+              font-size: 0.65rem;
+              padding: 6px 16px;
+              letter-spacing: 0.1em;
+              margin-bottom: 1rem;
+            }
+            .agents-heading { font-size: 1.4rem; }
+            .agents-subtitle { font-size: 0.95rem; }
+            .sub-heading { font-size: 1.3rem; }
+            .agent-type-card { padding: 24px 18px; }
+            .cap-grid {
+              grid-template-columns: 1fr;
+              gap: 12px;
+            }
+            .cap-tactical-box { padding: 18px; }
+          }

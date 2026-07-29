@@ -1,0 +1,190 @@
+@keyframes sechu-spin-cw {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  @keyframes sechu-spin-ccw {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0deg); }
+  }
+  @keyframes sechu-float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-12px); }
+  }
+  @keyframes sechu-shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+  @keyframes sechu-pulse-glow {
+    0%, 100% { box-shadow: 0 0 20px #3f689f22; }
+    50% { box-shadow: 0 0 40px #3f689f44; }
+  }
+  @keyframes sechu-line-flow {
+    to { stroke-dashoffset: 0; }
+  }
+
+  .sechu-viewport {
+    width: 650px;
+    height: 550px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    transform-origin: center center;
+  }
+
+  .sechu-core-group {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+  }
+
+  .sechu-ring {
+    position: absolute;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #3f689f;
+    pointer-events: none;
+  }
+
+  .sechu-ring-1 { width: 100%; height: 100%; border-width: 1px; border-style: dashed; opacity: 0.2; animation: sechu-spin-cw 40s linear infinite; }
+  .sechu-ring-2 { width: 88%; height: 88%; border-width: 5px; border-color: #3f689f11; border-top-color: #3f689f88; animation: sechu-spin-ccw 20s linear infinite; }
+  .sechu-ring-3 { width: 75%; height: 75%; border-width: 1px; opacity: 0.15; animation: sechu-spin-cw 60s linear infinite; }
+
+  .sechu-shield-hub {
+    width: 130px;
+    height: 130px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 20px 50px #3f689f33, inset 0 0 25px #3f689f08;
+    z-index: 15;
+    border: 1px solid #3f689f15;
+    position: relative;
+  }
+
+  .sechu-shield-hub::after {
+    content: '';
+    position: absolute;
+    inset: -12px;
+    border: 2px solid #3f689f33;
+    border-radius: 50%;
+    animation: sechu-pulse-glow 4s infinite ease-in-out;
+  }
+
+  .sechu-orbital-node {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.06);
+    border: 1px solid #3f689f15;
+    z-index: 20;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: sechu-float 6s infinite ease-in-out;
+    overflow: hidden;
+  }
+
+  .sechu-orbital-node::before {
+    content: '';
+    position: absolute;
+    top: 0; left: -100%; width: 50%; height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.6), transparent);
+    transform: skewX(-25deg);
+    animation: sechu-shimmer 4s infinite linear;
+  }
+
+  .sechu-orbital-node:hover {
+    transform: translateY(-10px) scale(1.08);
+    background: #3f689f;
+    border-color: #3f689f;
+    box-shadow: 0 20px 40px #3f689f44;
+  }
+
+  .sechu-orbital-node svg {
+    width: 42px;
+    height: 42px;
+    color: #3f689f;
+    transition: all 0.4s ease;
+    filter: drop-shadow(0 4px 6px #3f689f11);
+  }
+
+  .sechu-orbital-node:hover svg {
+    color: white;
+    transform: scale(1.1);
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
+  }
+
+  /* Enhanced Node Positions */
+  .node-global { top: 10%; left: 0; animation-delay: 0s; }
+  .node-users  { top: 5%; right: 0; animation-delay: 1s; }
+  .node-data   { bottom: 10%; left: 0; animation-delay: 2s; }
+  .node-system { bottom: 5%; right: 0; animation-delay: 3s; }
+
+  .sechu-connector-svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    pointer-events: none;
+    overflow: visible;
+  }
+
+  .sechu-tac-line {
+    fill: none;
+    stroke: #3f689f;
+    stroke-width: 2.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    opacity: 0.35;
+    animation: sechu-line-flow 2.5s forwards ease-out;
+    filter: drop-shadow(0 0 5px #3f689f44);
+  }
+
+  .sechu-junction-dot {
+    fill: #3f689f;
+    filter: drop-shadow(0 0 8px #3f689faa);
+    animation: sechu-pulse-glow 2s infinite;
+  }
+
+  @media (max-width: 1199px) {
+    .sechu-viewport { transform: scale(0.9); }
+  }
+
+  @media (max-width: 991px) {
+    .sechu-viewport { 
+      transform: scale(0.75); 
+      height: 450px; 
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .sechu-viewport { 
+      transform: scale(0.75); 
+      height: 480px; 
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 575px) {
+    .sechu-viewport { 
+      transform: scale(0.55); 
+      height: 380px; 
+      margin: 0px auto; 
+    }
+    .sechu-orbital-node { border-radius: 15px; }
+  }

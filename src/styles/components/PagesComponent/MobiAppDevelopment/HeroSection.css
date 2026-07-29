@@ -1,0 +1,78 @@
+@keyframes mob-float {
+    0%, 100% { transform: translateY(0px); }
+    50%       { transform: translateY(-10px); }
+  }
+  @keyframes mob-blink {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0.4; }
+  }
+  @keyframes mob-fadein {
+    from { opacity: 0; transform: translateY(12px) scale(0.95); }
+    to   { opacity: 1; transform: translateY(0)    scale(1);    }
+  }
+
+  .mob-phone-wrap {
+    position: relative;
+    width: 100%;
+    max-width: 260px;
+    margin: 0 auto;
+    animation: mob-float 4.5s ease-in-out infinite;
+    will-change: transform;
+    transform: translateZ(0);
+  }
+  .mob-metric-badge {
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255,255,255,0.82);
+    border: 1px solid rgba(63,104,159,0.15);
+    backdrop-filter: blur(12px);
+    border-radius: 14px;
+    padding: 9px 16px;
+    box-shadow: 0 4px 20px rgba(63,104,159,0.12);
+    z-index: 5;
+    animation: mob-fadein 0.6s ease var(--badge-delay, 0s) both,
+               mob-float  var(--badge-dur, 4s) ease-in-out var(--badge-delay, 0s) infinite;
+    white-space: nowrap;
+    will-change: transform, opacity;
+    transform: translateZ(0);
+  }
+  .mob-metric-val {
+    font-size: 1rem;
+    font-weight: 800;
+    color: #0f2847;
+    line-height: 1.1;
+  }
+  .mob-metric-lbl {
+    font-size: 0.62rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #5b9bd5;
+    margin-top: 2px;
+  }
+  .mob-orbit-ring {
+    position: absolute;
+    border-radius: 50%;
+    border: 1px dashed rgba(63,104,159,0.16);
+    pointer-events: none;
+  }
+
+  @media (max-width: 1199px) {
+    .mob-phone-wrap { transform: scale(0.9); }
+    .mob-metric-badge[style*="left: -22%"] { left: -10% !important; }
+    .mob-metric-badge[style*="right: -28%"] { right: -15% !important; }
+  }
+
+  @media (max-width: 991px) {
+    .mob-phone-wrap {
+      max-width: 220px;
+      margin: 30px auto 10px;
+    }
+    /* Hide floating badges on smaller screens to prevent overlap/layout issues */
+    .mob-metric-badge { display: none !important; }
+  }
+  @media (max-width: 576px) {
+    .mob-phone-wrap { max-width: 180px; }
+  }

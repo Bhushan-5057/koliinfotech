@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Build / Next.js
+/.next/
+/out/
+/build
+/dist
+next-env.d.ts
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Testing / coverage
+/coverage
+*.lcov
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE / editor
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+*.swp
+*.swo
+*~
+
+# TypeScript / cache
+*.tsbuildinfo
+.eslintcache
+.cache/
+.turbo/
+
+# Misc
+*.pem
+*.log
+.vercel
+.temp/
+.tmp/
+tmp/

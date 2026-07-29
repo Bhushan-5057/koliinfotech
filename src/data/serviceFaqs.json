@@ -1,0 +1,245 @@
+{
+  "web-development": [
+    {
+      "id": 1,
+      "question": "How much does a custom website cost?",
+      "answer": "A business website typically starts from ₹50,000–₹2 lakhs depending on pages, features, and integrations. Complex web applications can range from ₹3–15 lakhs. We provide a transparent quote after understanding your requirements."
+    },
+    {
+      "id": 2,
+      "question": "How long does web development take?",
+      "answer": "A standard corporate website takes 2–4 weeks. Custom web applications with dashboards, APIs, and user roles typically take 6–12 weeks. We share a detailed timeline during your free consultation."
+    },
+    {
+      "id": 3,
+      "question": "Which technologies do you use for web development?",
+      "answer": "We primarily use React, Next.js, Node.js, and modern CSS frameworks like Tailwind. For CMS needs we work with headless CMS solutions. We choose the stack based on your performance, SEO, and scalability requirements."
+    },
+    {
+      "id": 4,
+      "question": "Will my website be mobile-friendly and SEO optimized?",
+      "answer": "Yes. Every website we build is fully responsive and follows SEO best practices — semantic HTML, fast load times, meta tags, structured data, and mobile-first design."
+    },
+    {
+      "id": 5,
+      "question": "Do you provide maintenance after launch?",
+      "answer": "Yes. We offer ongoing maintenance plans covering security updates, bug fixes, content changes, performance monitoring, and feature enhancements."
+    }
+  ],
+  "mobile-app-development": [
+    {
+      "id": 1,
+      "question": "Do you build both Android and iOS apps?",
+      "answer": "Yes. We develop native Android (Kotlin/Java) and iOS (Swift) apps, as well as cross-platform apps using React Native and Flutter — helping you reach both platforms efficiently."
+    },
+    {
+      "id": 2,
+      "question": "How long does it take to build a mobile app?",
+      "answer": "A simple app with basic features takes 6–8 weeks. Medium-complexity apps with APIs, payments, and notifications take 10–14 weeks. Enterprise apps may take 4–6 months."
+    },
+    {
+      "id": 3,
+      "question": "Will you help publish the app on Play Store and App Store?",
+      "answer": "Absolutely. We handle the full deployment process including store listing, screenshots, compliance checks, and submission to Google Play Store and Apple App Store."
+    },
+    {
+      "id": 4,
+      "question": "Can you add push notifications and payment gateways?",
+      "answer": "Yes. We integrate push notifications (Firebase), payment gateways (Razorpay, Stripe, PayPal), maps, social login, and any third-party APIs your app requires."
+    },
+    {
+      "id": 5,
+      "question": "Do you sign NDAs for app ideas?",
+      "answer": "Yes. We sign NDAs before any project discussion. Your app idea, designs, and source code remain 100% your intellectual property."
+    }
+  ],
+  "custom-software-development": [
+    {
+      "id": 1,
+      "question": "What types of custom software do you build?",
+      "answer": "We build ERP systems, CRM platforms, inventory management, HRMS, booking systems, workflow automation tools, and any business software tailored to your operations."
+    },
+    {
+      "id": 2,
+      "question": "Can you integrate with our existing systems?",
+      "answer": "Yes. We specialize in API integrations with existing ERPs, accounting software, payment systems, and third-party tools to ensure seamless data flow across your business."
+    },
+    {
+      "id": 3,
+      "question": "How do you ensure the software fits our workflow?",
+      "answer": "We start with a discovery phase — understanding your current processes, pain points, and goals. We create wireframes and prototypes for your approval before development begins."
+    },
+    {
+      "id": 4,
+      "question": "Is custom software scalable as we grow?",
+      "answer": "Yes. We architect solutions with scalability in mind — modular code, cloud-ready infrastructure, and database designs that grow with your user base and data volume."
+    },
+    {
+      "id": 5,
+      "question": "Do you provide training for our team?",
+      "answer": "Yes. We provide user training, admin documentation, and video guides so your team can confidently use and manage the software from day one."
+    }
+  ],
+  "artificial-intelligence-machine-learning": [
+    {
+      "id": 1,
+      "question": "What AI solutions can you build for my business?",
+      "answer": "We build AI chatbots, document processing systems, predictive analytics dashboards, recommendation engines, image recognition tools, and custom ML models integrated into your existing software."
+    },
+    {
+      "id": 2,
+      "question": "Can you integrate ChatGPT or OpenAI into our product?",
+      "answer": "Yes. We integrate OpenAI API, LangChain, and other LLM providers to add intelligent chat, content generation, and automation features to your web and mobile applications."
+    },
+    {
+      "id": 3,
+      "question": "Do I need a large dataset to use AI?",
+      "answer": "Not always. For many use cases we leverage pre-trained models and fine-tuning. For custom ML models, we help you collect, clean, and prepare data — or work with your existing datasets."
+    },
+    {
+      "id": 4,
+      "question": "How do you ensure AI outputs are accurate and safe?",
+      "answer": "We implement guardrails, human-in-the-loop review, output validation, and monitoring. For sensitive domains like healthcare and finance, we add extra compliance and accuracy checks."
+    },
+    {
+      "id": 5,
+      "question": "What is the typical timeline for an AI project?",
+      "answer": "A chatbot integration can be live in 2–4 weeks. Custom ML model development typically takes 6–12 weeks depending on data complexity and integration requirements."
+    }
+  ],
+  "cloud-services": [
+    {
+      "id": 1,
+      "question": "Which cloud platforms do you work with?",
+      "answer": "We work with AWS, Microsoft Azure, and Google Cloud Platform. We help you choose the right platform based on your budget, compliance needs, and existing infrastructure."
+    },
+    {
+      "id": 2,
+      "question": "Can you migrate our existing application to the cloud?",
+      "answer": "Yes. We handle full cloud migration — assessment, planning, data migration, re-architecture if needed, and post-migration monitoring with minimal downtime."
+    },
+    {
+      "id": 3,
+      "question": "What is DevOps and how does it help my business?",
+      "answer": "DevOps automates your software delivery pipeline — from code commit to production deployment. It reduces release time, improves reliability, and enables faster feature delivery with CI/CD, Docker, and Kubernetes."
+    },
+    {
+      "id": 4,
+      "question": "How do you ensure cloud security?",
+      "answer": "We implement IAM policies, encryption at rest and in transit, VPC configurations, security groups, regular audits, and compliance with standards like SOC 2 and ISO 27001."
+    },
+    {
+      "id": 5,
+      "question": "Do you offer 24/7 cloud monitoring and support?",
+      "answer": "Yes. We provide monitoring, alerting, incident response, and on-call support packages to ensure your cloud infrastructure runs reliably around the clock."
+    }
+  ],
+  "qa-testing": [
+    {
+      "id": 1,
+      "question": "What types of testing do you offer?",
+      "answer": "We offer functional testing, regression testing, performance/load testing, security testing, API testing, mobile app testing, and automated test suite development."
+    },
+    {
+      "id": 2,
+      "question": "Can you test software you didn't build?",
+      "answer": "Yes. We provide independent QA services for third-party applications, legacy systems, and products built by other teams — bringing a fresh, objective quality perspective."
+    },
+    {
+      "id": 3,
+      "question": "Do you use automated testing tools?",
+      "answer": "Yes. We use Selenium, Cypress, Jest, Postman, JMeter, and other industry-standard tools to build automated test suites that run on every release."
+    },
+    {
+      "id": 4,
+      "question": "How do you report bugs and issues?",
+      "answer": "We use structured bug reports with steps to reproduce, screenshots, severity levels, and environment details. Reports are delivered via Jira, Trello, or your preferred project management tool."
+    },
+    {
+      "id": 5,
+      "question": "When should QA start in a project?",
+      "answer": "QA should start from day one. We recommend involving QA during requirements review and running tests throughout development — not just before launch — to catch issues early and reduce costs."
+    }
+  ],
+  "data-security": [
+    {
+      "id": 1,
+      "question": "How do you protect client data during development?",
+      "answer": "We use encrypted communications, secure development environments, access controls, and strict data handling policies. Sensitive data is never stored on unsecured systems."
+    },
+    {
+      "id": 2,
+      "question": "Are you GDPR and data privacy compliant?",
+      "answer": "Yes. We follow GDPR, CCPA, and Indian data protection guidelines. We implement data minimization, consent management, right-to-erasure, and privacy-by-design principles."
+    },
+    {
+      "id": 3,
+      "question": "Do you conduct security audits and penetration testing?",
+      "answer": "Yes. We perform vulnerability assessments, penetration testing, code security reviews, and compliance audits to identify and fix security weaknesses before they become risks."
+    },
+    {
+      "id": 4,
+      "question": "What encryption standards do you use?",
+      "answer": "We use AES-256 encryption for data at rest, TLS 1.3 for data in transit, bcrypt for password hashing, and secure key management practices throughout our applications."
+    },
+    {
+      "id": 5,
+      "question": "Will you sign an NDA and data processing agreement?",
+      "answer": "Yes. We sign NDAs and Data Processing Agreements (DPA) as standard practice before handling any sensitive business or customer data."
+    }
+  ],
+  "hire-developer": [
+    {
+      "id": 1,
+      "question": "How quickly can I hire a developer from KOLI Infotech?",
+      "answer": "We can present vetted candidates within 48–72 hours. After your interview and selection, developers can start within 3–5 business days."
+    },
+    {
+      "id": 2,
+      "question": "What engagement models do you offer?",
+      "answer": "We offer full-time dedicated developers, part-time resources, hourly consulting, and team augmentation models — flexible to your project needs and budget."
+    },
+    {
+      "id": 3,
+      "question": "Which technologies can your developers work with?",
+      "answer": "Our developers specialize in React, Next.js, Node.js, Python, .NET, Flutter, React Native, AWS, DevOps, QA automation, UI/UX design, and AI/ML integration."
+    },
+    {
+      "id": 4,
+      "question": "How do you ensure developer quality?",
+      "answer": "Every developer goes through a 5-stage vetting process — technical assessment, live coding, communication review, reference check, and trial period evaluation."
+    },
+    {
+      "id": 5,
+      "question": "Who manages the hired developers?",
+      "answer": "You manage day-to-day tasks directly. We assign a dedicated account manager for escalations, performance reviews, and replacement if needed — ensuring smooth collaboration."
+    }
+  ],
+  "digital-marketing": [
+    {
+      "id": 1,
+      "question": "What digital marketing services do you offer?",
+      "answer": "We offer SEO, Google Ads, social media marketing, content marketing, email campaigns, conversion rate optimization, and analytics reporting — tailored to your business goals."
+    },
+    {
+      "id": 2,
+      "question": "How long before I see SEO results?",
+      "answer": "SEO is a long-term strategy. Most clients see measurable improvements in rankings and traffic within 3–6 months. We provide monthly reports tracking keyword positions, traffic, and conversions."
+    },
+    {
+      "id": 3,
+      "question": "Do you manage Google Ads and social media ads?",
+      "answer": "Yes. We create, manage, and optimize paid campaigns on Google Ads, Facebook, Instagram, and LinkedIn — focusing on ROI, lead quality, and cost per acquisition."
+    },
+    {
+      "id": 4,
+      "question": "Can you improve my existing website's conversion rate?",
+      "answer": "Yes. Our CRO services include landing page optimization, A/B testing, UX improvements, faster page speeds, and clearer CTAs — designed to turn more visitors into leads and customers."
+    },
+    {
+      "id": 5,
+      "question": "Do you provide monthly performance reports?",
+      "answer": "Yes. Every client receives detailed monthly reports covering traffic, rankings, ad spend, leads generated, and actionable recommendations for the next month."
+    }
+  ]
+}

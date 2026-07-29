@@ -1,0 +1,209 @@
+﻿.ds-section {
+              padding: 100px 0;
+              background: #fff;
+              position: relative;
+            }
+            .bg-light-alt {
+              background: #f8fbff;
+            }
+            .service-desc {
+              font-size: 1rem;
+              line-height: 1.8;
+              color: #4b5563;
+              margin-bottom: 1.5rem;
+              font-weight: 500;
+              max-width: 100%;
+            }
+            .premium-badge {
+              display: inline-block;
+              background: rgba(63, 104, 159, 0.08);
+              color: #3f689f;
+              padding: 8px 18px;
+              border-radius: 50px;
+              font-size: 0.85rem;
+              font-weight: 700;
+              letter-spacing: 0.03em;
+              text-transform: uppercase;
+              border: 1px solid rgba(63, 104, 159, 0.15);
+              margin-bottom: 1.5rem;
+            }
+            .premium-heading {
+              font-size: clamp(1.8rem, 3.2vw, 2.4rem);
+              font-weight: 800;
+              color: #1e293b;
+              line-height: 1.25;
+              letter-spacing: -0.03em;
+              margin: 0;
+            }
+            .ds-accent {
+              color: #3f689f;
+            }
+            .ds-dashed-wrapper {
+              display: flex;
+              justify-content: center;
+              width: 100%;
+              margin-top: 3rem;
+            }
+            .ds-dashed-spec {
+              background: rgba(63, 104, 159, 0.01);
+              padding: 40px;
+              border-radius: 4px;
+              border: 1px dashed rgba(63, 104, 159, 0.4);
+              position: relative;
+              max-width: 1000px;
+              text-align: left;
+            }
+            .premium-divider {
+              width: 60px;
+              height: 4px;
+              background: linear-gradient(90deg, #3f689f, #5b9bd5);
+              border-radius: 2px;
+              box-shadow: 0 2px 4px rgba(63, 104, 159, 0.2);
+              margin-top: 1rem;
+            }
+            .ds-sub-heading {
+              font-weight: 850;
+              color: #1e293b;
+              display: flex;
+              align-items: center;
+              font-size: 1.2rem;
+            }
+            .ds-list-grid {
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              gap: 30px;
+              max-width: 900px;
+              margin: 0 auto;
+            }
+            .ds-list {
+              padding-left: 0;
+              list-style: none;
+            }
+            .ds-list li {
+              position: relative;
+              padding-left: 32px;
+              margin-bottom: 18px;
+              color: #4b5563;
+              font-size: 0.98rem;
+              font-weight: 500;
+              line-height: 1.6;
+            }
+            .ds-list li::before {
+              content: '✓';
+              position: absolute;
+              left: 0;
+              color: #3f689f;
+              font-weight: 900;
+              font-size: 1.1rem;
+            }
+            .ds-img-wrap {
+              position: relative;
+            }
+            .ds-img {
+              max-width: 100%;
+              height: auto;
+              filter: drop-shadow(0 20px 40px rgba(0,0,0,0.08));
+            }
+            
+            /* ── App Safety Refined ── */
+            .ds-feature-minimal {
+              padding: 30px;
+              border-radius: 12px;
+              border: 1px solid rgba(63, 104, 159, 0.08);
+              background: transparent;
+              transition: all 0.4s ease;
+              position: relative;
+              height: 100%;
+            }
+            .ds-feature-minimal:hover {
+              border-color: #3f689f;
+              transform: translateY(-5px);
+            }
+            .ds-minimal-tag {
+              font-size: 0.65rem;
+              font-weight: 800;
+              color: #3f689f;
+              opacity: 0.5;
+              margin-bottom: 12px;
+              letter-spacing: 0.1em;
+            }
+            .ds-feature-minimal h6 {
+              font-weight: 850;
+              color: #1e293b;
+              margin-bottom: 12px;
+              font-size: 1.1rem;
+            }
+            .ds-feature-minimal p {
+              font-size: 0.92rem;
+              color: #64748b;
+              margin: 0;
+              line-height: 1.7;
+              font-weight: 500;
+            }
+
+            /* ── Security Protocols Refined ── */
+            .ds-protocol-header {
+               padding: 25px;
+               border-bottom: 2px solid rgba(63, 104, 159, 0.1);
+            }
+            .ds-protocol-card {
+              background: #ffffff;
+              padding: 50px;
+              border-radius: 2px;
+              border-left: 4px solid #3f689f;
+              box-shadow: 0 10px 30px rgba(0,0,0,0.02);
+              height: 100%;
+              position: relative;
+            }
+            .ds-protocol-card:hover {
+              box-shadow: 0 20px 60px rgba(63, 104, 159, 0.05);
+            }
+            .ds-protocol-label {
+              font-size: 0.68rem;
+              font-weight: 800;
+              color: #3f689f;
+              text-transform: uppercase;
+              margin-bottom: 15px;
+              letter-spacing: 0.2em;
+            }
+            .ds-protocol-title {
+              font-size: 1.6rem;
+              font-weight: 850;
+              color: #1e293b;
+              margin-bottom: 35px;
+              letter-spacing: -0.02em;
+            }
+            .ds-protocol-list {
+              padding: 0;
+              list-style: none;
+            }
+            .ds-protocol-list li {
+              position: relative;
+              padding-left: 28px;
+              margin-bottom: 16px;
+              color: #4b5563;
+              font-size: 0.95rem;
+              font-weight: 600;
+            }
+            .ds-protocol-list li::before {
+              content: '→';
+              position: absolute;
+              left: 0;
+              color: #3f689f;
+              font-weight: 900;
+            }
+            .ds-protocol-list.grid-cols {
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              gap: 15px;
+            }
+
+            @media (max-width: 991px) {
+              .ds-section { padding: 70px 20px; }
+              .ds-protocol-card { padding: 40px 30px; }
+              .ds-protocol-list.grid-cols { grid-template-columns: 1fr; }
+            }
+            @media (max-width: 767px) {
+              .ds-list-grid { grid-template-columns: 1fr; gap: 0px; }
+            }
+

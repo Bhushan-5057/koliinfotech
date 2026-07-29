@@ -1,0 +1,12 @@
+.blog-hero-badge {
+    display: inline-block;
+    padding: 6px 16px;
+    background: #3f689f12;
+    color: #3f689f;
+    border-radius: 100px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 1.5rem;
+  }

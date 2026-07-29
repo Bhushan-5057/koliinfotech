@@ -1,0 +1,184 @@
+.ai-lifecycle-section {
+            padding: clamp(3.25rem, 7vw, 5.5rem) 0 clamp(3.5rem, 8vw, 6rem);
+            background: #f8fafc;
+          }
+
+          /* Header */
+          .lifecycle-badge {
+            background: rgba(63, 104, 159, 0.08);
+            color: #3f689f;
+            padding: 7px 20px;
+            border-radius: 50px;
+            font-size: 0.82rem;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            border: 1px solid rgba(63, 104, 159, 0.18);
+            display: inline-block;
+            margin: 0 0 1.2rem;
+          }
+          .lifecycle-heading {
+            font-size: clamp(1.5rem, 3vw, 2.3rem);
+            font-weight: 800;
+            color: #1e293b;
+            letter-spacing: -0.03em;
+            line-height: 1.25;
+            max-width: 600px;
+            margin: 0 auto;
+          }
+          .lifecycle-subtitle {
+            font-size: 1rem;
+            color: #64748b;
+            line-height: 1.7;
+            max-width: 580px;
+            margin: 14px auto 0;
+            font-weight: 500;
+          }
+
+          /* Steps layout */
+          .lifecycle-steps-wrapper {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 0;
+            position: relative;
+            flex-wrap: wrap;
+          }
+
+          .lifecycle-step {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            flex: 1;
+            min-width: 160px;
+            max-width: 210px;
+            position: relative;
+            padding: 0 10px;
+          }
+
+          /* Horizontal connector between steps */
+          .lifecycle-connector {
+            position: absolute;
+            top: 36px;
+            left: calc(50% + 40px);
+            right: calc(-50% + 40px);
+            height: 2px;
+            background: linear-gradient(90deg, #3f689f40, #5b9bd540);
+            z-index: 0;
+          }
+          /* Connector via pseudo for proper full-width line */
+          .lifecycle-step:not(:last-child)::after {
+            content: "";
+            position: absolute;
+            top: 36px;
+            left: 50%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, rgba(63,104,159,0.25), rgba(91,155,213,0.25));
+            z-index: 0;
+          }
+
+          /* Icon */
+          .lifecycle-icon-wrap {
+            width: 72px;
+            height: 72px;
+            background: #ffffff;
+            border-radius: 50%;
+            border: 2px solid rgba(63, 104, 159, 0.18);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 8px 24px rgba(63, 104, 159, 0.12);
+            position: relative;
+            z-index: 1;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+          }
+          .lifecycle-step:hover .lifecycle-icon-wrap {
+            transform: translateY(-4px) scale(1.06);
+            box-shadow: 0 14px 30px rgba(63, 104, 159, 0.18);
+          }
+
+          /* Step number badge */
+          .lifecycle-step-num {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            width: 22px;
+            height: 22px;
+            background: linear-gradient(135deg, #3f689f, #5b9bd5);
+            color: #fff;
+            border-radius: 50%;
+            font-size: 0.62rem;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            letter-spacing: 0.02em;
+            box-shadow: 0 2px 6px rgba(63, 104, 159, 0.35);
+          }
+
+          /* Text */
+          .lifecycle-text {
+            padding: 0 4px;
+          }
+          .lifecycle-title {
+            font-size: 0.95rem;
+            font-weight: 800;
+            color: #1e293b;
+            margin-bottom: 8px;
+            line-height: 1.3;
+          }
+          .lifecycle-desc {
+            font-size: 0.82rem;
+            color: #64748b;
+            line-height: 1.6;
+            font-weight: 500;
+            margin: 0;
+          }
+
+          /* Responsive: stack vertically on small screens */
+          @media (max-width: 991px) {
+            .lifecycle-steps-wrapper {
+              flex-wrap: wrap;
+              gap: 28px 12px;
+            }
+            .lifecycle-step {
+              flex: 1 1 160px;
+              min-width: 140px;
+              max-width: 200px;
+            }
+            .lifecycle-step:not(:last-child)::after {
+              display: none;
+            }
+            .lifecycle-connector {
+              display: none;
+            }
+          }
+
+          @media (max-width: 768px) {
+            .ai-lifecycle-section {
+              padding: clamp(2.5rem, 6vw, 3.5rem) 0 clamp(3rem, 7vw, 4rem);
+            }
+            .lifecycle-badge {
+              margin-bottom: 1rem;
+            }
+            .lifecycle-steps-wrapper {
+              flex-direction: column;
+              align-items: center;
+              gap: 32px;
+            }
+            .lifecycle-step {
+              min-width: 260px;
+              max-width: 320px;
+              flex: none;
+            }
+          }
+
+          @media (max-width: 575px) {
+            .lifecycle-step {
+              min-width: 100%;
+              max-width: 100%;
+            }
+          }

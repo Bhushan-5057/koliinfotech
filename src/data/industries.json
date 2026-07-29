@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Startups & SaaS",
+    "description": "MVP launches, lean budgets, and scalable architecture to grow from idea to product-market fit.",
+    "icon": "rocket"
+  },
+  {
+    "id": 2,
+    "title": "Ecommerce & Retail",
+    "description": "Online stores, inventory systems, payment gateways, and conversion-focused shopping experiences.",
+    "icon": "shopping"
+  },
+  {
+    "id": 3,
+    "title": "Healthcare & Hospitals",
+    "description": "Secure patient management, appointment systems, and compliant healthcare software solutions.",
+    "icon": "health"
+  },
+  {
+    "id": 4,
+    "title": "Restaurants & Hotels",
+    "description": "Ordering apps, booking platforms, POS integrations, and guest experience solutions.",
+    "icon": "hotel"
+  },
+  {
+    "id": 5,
+    "title": "Education & Schools",
+    "description": "LMS platforms, student portals, admin automation, and digital learning tools.",
+    "icon": "education"
+  },
+  {
+    "id": 6,
+    "title": "Manufacturing",
+    "description": "ERP systems, inventory tracking, production monitoring, and supply chain automation.",
+    "icon": "factory"
+  },
+  {
+    "id": 7,
+    "title": "Real Estate & Agencies",
+    "description": "CRM platforms, lead management, property portals, and client communication tools.",
+    "icon": "building"
+  },
+  {
+    "id": 8,
+    "title": "Enterprise & B2B",
+    "description": "Custom platforms, API integrations, cloud migration, and enterprise-grade security.",
+    "icon": "enterprise"
+  }
+]

@@ -1,0 +1,77 @@
+.contact-section {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            background: linear-gradient(135deg, #f8faff 0%, #ffffff 50%, #f4f8ff 100%);
+            padding: clamp(4rem, 8vw, 5.5rem) 20px clamp(4.5rem, 9vw, 6rem);
+            border-top: 1px solid rgba(63, 104, 159, 0.05);
+          }
+          .contact-bg {
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            z-index: 0;
+          }
+          .contact-pattern {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+          }
+          .contact-content {
+            position: relative;
+            z-index: 5;
+            max-width: 650px;
+            margin: 0 auto;
+          }
+          .contact-label {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 800;
+            letter-spacing: 0.2em;
+            color: #3f689f;
+            margin-bottom: 1rem;
+            opacity: 0.8;
+          }
+          .contact-title {
+            font-size: clamp(1.3rem, 2.5vw, 1.9rem);
+            font-weight: 800;
+            color: #1a2e4d;
+            letter-spacing: -0.01em;
+            line-height: 1.3;
+            margin-bottom: 12px;
+          }
+          .contact-sub {
+            font-size: 0.95rem;
+            color: #5a6b8a;
+            margin-bottom: 2.2rem;
+            max-width: 480px;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          .contact-btn {
+            background: #3f689f;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            cursor: pointer;
+            box-shadow: 0 8px 25px rgba(63, 104, 159, 0.2);
+          }
+          .contact-btn:hover {
+            background: #2d4d7a;
+            transform: translateY(-4px) scale(1.02);
+            box-shadow: 0 12px 30px rgba(63, 104, 159, 0.3);
+          }
+          .btn-icon {
+            transition: transform 0.3s ease;
+          }
+          .contact-btn:hover .btn-icon {
+            transform: translateX(5px);
+          }

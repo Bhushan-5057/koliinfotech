@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "name": "Priya Sharma",
+      "designation": "Project Manager",
+      "company": "Axis Bank",
+      "avatar": "https://res.cloudinary.com/dmpknadzu/image/upload/v1779078184/koli/client/yapogfswbwgie8jqi9ke.webp",
+      "rating": 5,
+      "review": "Partnering with KOLI Infotech was one of the best technology decisions for our organization. Their team quickly understood our business objectives, modernized our customer support platform, and implemented secure backend services with seamless API integrations. Throughout the project, communication was transparent, milestones were consistently met, and the final product exceeded our expectations. Their technical expertise and commitment to quality made them a trusted technology partner."
+    },
+    {
+      "id": 2,
+      "name": "Rahul Mehta",
+      "designation": "Technical Lead",
+      "company": "American Express",
+      "avatar": "https://res.cloudinary.com/dmpknadzu/image/upload/v1779078245/koli/client/lqut3lpq6kpdy1ktuzbq.webp",
+      "rating": 5,
+      "review": "KOLI Infotech successfully delivered a scalable web application that aligned perfectly with our business requirements. Their developers demonstrated exceptional technical expertise, maintained high coding standards, and focused on delivering secure, high-performance solutions. The collaboration was smooth from planning to deployment, and the team's proactive approach ensured every challenge was resolved efficiently."
+    },
+    {
+      "id": 3,
+      "name": "Sneha Verma",
+      "designation": "Operations Head",
+      "company": "Ooredoo",
+      "avatar": "https://res.cloudinary.com/dmpknadzu/image/upload/v1779078286/koli/client/dkyrwywxmzgqd5yfodma.webp",
+      "rating": 4,
+      "review": "Working with KOLI Infotech was a seamless experience from start to finish. Their team developed reliable web and mobile solutions while maintaining excellent communication throughout the project. They responded quickly to every requirement, suggested valuable improvements, and consistently delivered quality work within the agreed timelines. Their professionalism and dedication made them an excellent technology partner."
+    },
+    {
+      "id": 4,
+      "name": "Amit Kulkarni",
+      "designation": "Senior Product Manager",
+      "company": "Turing",
+      "avatar": "https://res.cloudinary.com/dmpknadzu/image/upload/v1779078331/koli/client/orfof2buxv1cetr052ce.webp",
+      "rating": 5,
+      "review": "The custom software solution delivered by KOLI Infotech significantly improved our operational efficiency. Their engineers designed a highly scalable backend architecture, optimized system performance, and implemented reliable real-time features that enhanced our platform. Their ability to solve complex technical challenges while maintaining excellent communication was truly impressive."
+    },
+    {
+      "id": 5,
+      "name": "Neha Patel",
+      "designation": "Business Consultant",
+      "company": "HDFC Bank",
+      "avatar": "https://res.cloudinary.com/dmpknadzu/image/upload/v1779078384/koli/client/icujzvguhfcmbgnipp2s.webp",
+      "rating": 5,
+      "review": "KOLI Infotech consistently demonstrated professionalism, technical excellence, and a deep understanding of enterprise software development. Their developers proactively suggested better solutions, maintained complete transparency during every phase of the project, and provided exceptional post-deployment support. We highly value their commitment to delivering reliable, business-focused solutions."
+    },
+    {
+      "id": 6,
+      "name": "Vikram Desai",
+      "designation": "Technology Director",
+      "company": "Softedge",
+      "avatar": "https://res.cloudinary.com/dmpknadzu/image/upload/v1779078419/koli/client/t7odafkiluoh8xuhcics.webp",
+      "rating": 5,
+      "review": "KOLI Infotech's expertise in web technologies, cloud infrastructure, and enterprise software development was evident throughout our collaboration. Their team handled complex technical requirements with confidence, delivered every milestone on schedule, and maintained exceptional code quality. We were particularly impressed by their problem-solving approach and dedication to building scalable, future-ready solutions."
+    }
+  ]

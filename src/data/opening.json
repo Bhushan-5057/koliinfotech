@@ -1,0 +1,96 @@
+[
+    {
+      "id": 1,
+      "title": "Frontend Developer (React.js / Next.js)",
+      "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1773635487/koli/opening/m31mfquyuaf7t6uehycj.png",
+      "location": "Surat, Gujarat",
+      "experience": "2.5+ Years",
+      "employmentType": "Full Time",
+      "workMode": "On-site",
+      "department": "Engineering",
+      "description": "We are looking for a passionate Frontend Developer with strong experience in React.js and Next.js to build fast, responsive, and user-friendly web applications. You will collaborate closely with designers, backend developers, and product teams to deliver scalable digital products while maintaining high standards of code quality, performance, and accessibility.",
+      "skills": [
+        "React.js",
+        "Next.js",
+        "JavaScript (ES6+)",
+        "HTML5",
+        "CSS3",
+        "Redux",
+        "REST APIs",
+        "Git",
+        "Material UI"
+      ],
+      "requirements": [
+        "2.5+ years of professional frontend development experience.",
+        "Strong knowledge of React.js and Next.js.",
+        "Experience integrating RESTful APIs.",
+        "Good understanding of responsive web design and cross-browser compatibility.",
+        "Knowledge of state management using Redux or Context API.",
+        "Familiarity with Git version control.",
+        "Ability to write clean, maintainable, and reusable code.",
+        "Strong communication and problem-solving skills."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Senior Frontend Developer",
+      "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1773635847/koli/opening/emcazbcidf6h25hdo1b1.png",
+      "location": "Surat, Gujarat",
+      "experience": "3+ Years",
+      "employmentType": "Full Time",
+      "workMode": "On-site",
+      "department": "Engineering",
+      "description": "Join our frontend engineering team to develop modern, high-performance web applications using React.js and Next.js. You will lead UI implementation, optimize application performance, collaborate with cross-functional teams, and contribute to building exceptional digital experiences for our global clients.",
+      "skills": [
+        "React.js",
+        "Next.js",
+        "Redux",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "REST APIs",
+        "Material UI",
+        "Git"
+      ],
+      "requirements": [
+        "3+ years of experience in frontend development.",
+        "Hands-on expertise with React.js and Next.js.",
+        "Experience with Server-Side Rendering (SSR) and Static Site Generation (SSG).",
+        "Strong understanding of application performance optimization.",
+        "Knowledge of SEO best practices.",
+        "Experience with responsive and mobile-first design.",
+        "Excellent teamwork and communication skills."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Backend Developer (Node.js)",
+      "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1773641762/koli/opening/hbuthqhgeanq1gvzgxxp.png",
+      "location": "Surat, Gujarat",
+      "experience": "3+ Years",
+      "employmentType": "Full Time",
+      "workMode": "On-site",
+      "department": "Engineering",
+      "description": "We are seeking an experienced Backend Developer with strong Node.js expertise to build secure, scalable, and high-performance backend systems. You will design APIs, optimize databases, integrate third-party services, and ensure reliable application performance for enterprise-grade solutions.",
+      "skills": [
+        "Node.js",
+        "JavaScript",
+        "Express.js",
+        "REST APIs",
+        "MongoDB",
+        "SQL Databases",
+        "HTML5",
+        "CSS3",
+        "Git"
+      ],
+      "requirements": [
+        "3+ years of experience in Node.js development.",
+        "Strong understanding of JavaScript and asynchronous programming.",
+        "Experience designing RESTful APIs.",
+        "Knowledge of MongoDB or relational databases.",
+        "Experience with Git and collaborative development workflows.",
+        "Excellent debugging and problem-solving skills.",
+        "Ability to work independently and within a collaborative team environment."
+      ]
+    }
+  ]

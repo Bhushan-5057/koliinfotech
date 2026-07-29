@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "How much does custom software development cost?",
+    "answer": "Costs depend on complexity, features, and timeline. A business website may start from ₹50,000, while enterprise software can range from ₹5–50 lakhs. We provide transparent quotes after a free discovery call — no hidden fees."
+  },
+  {
+    "id": 2,
+    "question": "How long does it take to build a website or mobile app?",
+    "answer": "A standard website takes 2–4 weeks. Mobile apps typically take 6–12 weeks. Enterprise solutions may take 3–6 months. We share a clear timeline during your free consultation."
+  },
+  {
+    "id": 3,
+    "question": "Do you work with startups and small businesses?",
+    "answer": "Absolutely. We work with startups, SMEs, and large enterprises across India, Canada, and worldwide. We tailor solutions to your budget and growth stage."
+  },
+  {
+    "id": 4,
+    "question": "Can you maintain and support our existing software?",
+    "answer": "Yes. We offer ongoing maintenance, bug fixes, feature updates, security patches, and 24/7 support options for applications we build or inherit."
+  },
+  {
+    "id": 5,
+    "question": "Do you sign NDAs and protect our intellectual property?",
+    "answer": "Yes. We sign NDAs before project discussions and ensure all code, designs, and data remain your exclusive property."
+  },
+  {
+    "id": 6,
+    "question": "Can we hire dedicated developers from your team?",
+    "answer": "Yes. We offer dedicated developer hiring models — full-time, part-time, or project-based — so you get skilled resources without long hiring cycles."
+  }
+]

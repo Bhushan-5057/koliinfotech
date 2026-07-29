@@ -1,0 +1,177 @@
+﻿@keyframes cloud-float {
+      0%, 100% { transform: translate3d(0, 0, 0) rotate(0.001deg); }
+      50% { transform: translate3d(0, -10px, 0) rotate(0.001deg); }
+    }
+    @keyframes cloud-dash {
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes cloud-fadein {
+      from { opacity: 0; transform: scale(0.9) translateY(10px); }
+      to { opacity: 1; transform: scale(1) translateY(0); }
+    }
+
+    .cloud-container {
+      width: 100%;
+      max-width: 600px;
+      height: 520px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.5s ease-out;
+      perspective: 1000px;
+      backface-visibility: hidden;
+    }
+
+    .cloud-hub {
+      position: relative;
+      width: 250px;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+      animation: cloud-float 5s ease-in-out infinite;
+      backface-visibility: hidden;
+      transform: translateZ(0);
+    }
+
+    .cloud-hub-svg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      filter: drop-shadow(0 10px 25px #3f689f15);
+    }
+
+    .cloud-node {
+      position: absolute;
+      width: 82px;
+      height: 82px;
+      background: white;
+      border: 1.2px solid #3f689f20;
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+      z-index: 20;
+      transition: all 0.4s ease-out;
+      backface-visibility: hidden;
+      transform: translateZ(0);
+      animation: cloud-fadein 0.6s ease both;
+      padding: 4px; /* Increased padding */
+    }
+
+    .cloud-node:hover {
+      background: #3f689f !important;
+      border-color: #3f689f !important;
+      box-shadow: 0 10px 30px #3f689f33;
+      z-index: 40;
+      transform: none !important; /* Forces stability */
+    }
+
+    .cloud-node svg {
+      width: 24px; /* Slightly smaller icon to give text more room */
+      height: 24px;
+      color: #3f689f;
+      margin-bottom: 2px;
+      backface-visibility: hidden;
+      transition: color 0.3s ease-out;
+    }
+
+    .cloud-node:hover svg {
+      color: white !important;
+    }
+
+    .cloud-node-label {
+      font-size: 0.48rem; /* Fine-tuned for better fit */
+      font-weight: 800;
+      color: #3f689f; /* Changed from BRAND_BLUE to theme blue */
+      text-transform: uppercase;
+      letter-spacing: 0.02em; /* Reduced spacing for long words */
+      text-align: center;
+      line-height: 1.1;
+      padding: 0 2px;
+      display: block;
+      width: 100%;
+      word-wrap: break-word; /* Safe wrapping */
+      overflow-wrap: break-word;
+      word-break: normal; /* DO NOT break mid-word */
+      backface-visibility: hidden;
+      -webkit-font-smoothing: antialiased;
+      transition: color 0.3s ease-out;
+    }
+
+    .cloud-node:hover .cloud-node-label {
+      color: white !important;
+    }
+
+    .cloud-connector {
+      position: absolute;
+      z-index: 5;
+      pointer-events: none;
+      overflow: visible;
+    }
+
+    .cloud-connector path {
+      stroke: #3f689f20;
+      stroke-width: 1.5;
+      stroke-dasharray: 4 6;
+      fill: none;
+      animation: cloud-dash 50s linear infinite;
+    }
+
+    @media (max-width: 1199px) {
+      .cloud-container { transform: scale(0.85); }
+    }
+
+    @media (max-width: 991px) {
+      .cloud-container {
+        max-width: 500px;
+        height: 480px;
+        margin: 40px auto;
+        transform: scale(0.9);
+      }
+    }
+
+    @media (max-width: 767px) {
+      .cloud-container {
+        height: 520px;
+        transform: scale(0.8);
+        margin: 20px auto;
+      }
+      .cloud-node {
+        width: 68px;
+        height: 68px;
+      }
+    }
+
+    @media (max-width: 575px) {
+      .cloud-container {
+        transform: scale(0.75);
+        height: 450px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .cloud-container {
+        height: 420px;
+        transform: scale(0.72);
+        margin: 0 auto;
+      }
+      .cloud-hub { width: 200px; height: 120px; }
+      .cloud-node {
+        width: 62px;
+        height: 62px;
+      }
+      .cloud-node-label { font-size: 0.46rem; }
+    }
+
+    @media (max-width: 380px) {
+      .cloud-container {
+        transform: scale(0.62);
+      }
+    }
+

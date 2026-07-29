@@ -1,0 +1,129 @@
+@keyframes aivis-pulse {
+    0%,100% { r: 26; opacity: 1; }
+    50%      { r: 30; opacity: 0.85; }
+  }
+  @keyframes aivis-node {
+    0%,100% { r: 10; opacity: 0.75; }
+    50%      { r: 13; opacity: 1; }
+  }
+  @keyframes aivis-signal {
+    0%   { offset-distance: 0%;   opacity: 0; }
+    10%  { opacity: 1; }
+    90%  { opacity: 1; }
+    100% { offset-distance: 100%; opacity: 0; }
+  }
+  @keyframes aivis-bob {
+    0%,100% { transform: translateY(0px);  }
+    50%      { transform: translateY(-8px); }
+  }
+  @keyframes aivis-fadein {
+    from { opacity:0; transform:translateY(12px) scale(0.95); }
+    to   { opacity:1; transform:translateY(0)    scale(1);    }
+  }
+
+  .aivis-container {
+    position: relative;
+    width: 100%;
+    max-width: 520px;
+    margin: 0 auto;
+    transition: transform 0.5s ease;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+  }
+
+  .aivis-metric {
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255,255,255,0.78);
+    border: 1px solid rgba(63,104,159,0.14);
+    backdrop-filter: blur(12px);
+    border-radius: 14px;
+    padding: 10px 18px;
+    box-shadow: 0 4px 20px rgba(63,104,159,0.10);
+    z-index: 5;
+    animation:
+      aivis-bob     var(--bob-dur, 4s) ease-in-out var(--delay,0s) infinite,
+      aivis-fadein  0.6s ease var(--delay,0s) both;
+    white-space: nowrap;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+  }
+  .aivis-metric-val {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #0f2847;
+    line-height: 1.1;
+  }
+  .aivis-metric-lbl {
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #5b9bd5;
+    margin-top: 2px;
+  }
+
+  .aivis-orbit-wrap {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    z-index: 1;
+  }
+  .aivis-ring {
+    position: absolute;
+    border-radius: 50%;
+    border: 1px dashed rgba(63,104,159,0.15);
+    backface-visibility: hidden;
+    transform: translateZ(0);
+  }
+
+  @media (max-width: 1199px) {
+    .aivis-container {
+       transform: scale(0.9);
+    }
+  }
+
+  @media (max-width: 991px) {
+    .aivis-container {
+       transform: scale(0.95);
+       margin: 40px auto;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .aivis-container {
+       transform: scale(0.85);
+    }
+    .aivis-metric {
+       padding: 8px 12px;
+    }
+    .aivis-metric-val { font-size: 0.9rem; }
+  }
+
+  @media (max-width: 576px) {
+    .aivis-container {
+       transform: scale(0.8);
+    }
+    .aivis-metric {
+       padding: 6px 10px;
+       border-radius: 10px;
+    }
+    .aivis-metric-val { font-size: 0.8rem; }
+    .aivis-metric-lbl { font-size: 0.55rem; }
+    
+    .aivis-metric[style*="left: -6%"] { left: 2% !important; }
+    .aivis-metric[style*="right: -6%"] { right: 2% !important; }
+    .aivis-metric[style*="left: -4%"] { left: 4% !important; bottom: 8% !important; }
+    .aivis-metric[style*="right: -4%"] { right: 4% !important; bottom: 8% !important; }
+  }
+
+  @media (max-width: 400px) {
+    .aivis-container {
+       transform: scale(0.7);
+    }
+  }

@@ -1,0 +1,212 @@
+@keyframes webvis-float {
+    0%, 100% { transform: translate3d(0, 0, 0) rotate(0.001deg); }
+    50% { transform: translate3d(0, -15px, 0) rotate(0.001deg); }
+  }
+  @keyframes webvis-dash {
+    to { stroke-dashoffset: 0; }
+  }
+  @keyframes webvis-rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  @keyframes webvis-glow {
+    0%, 100% { box-shadow: 0 0 30px #3f689f22, inset 0 0 10px rgba(255,255,255,0.5); }
+    50% { box-shadow: 0 0 50px #3f689f44, inset 0 0 15px rgba(255,255,255,0.8); }
+  }
+  @keyframes webvis-pulse {
+    0%, 100% { opacity: 0.95; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.02); }
+  }
+
+  .webvis-container {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s ease;
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+
+  .webvis-core-hub {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(12px);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    border: 3px solid #3f689f22;
+    animation: webvis-float 6s ease-in-out infinite, webvis-glow 4s infinite;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    will-change: transform, box-shadow;
+  }
+
+  .webvis-core-content {
+    text-align: center;
+    padding: 20px;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    animation: webvis-pulse 4s ease-in-out infinite;
+  }
+
+  .webvis-core-logo {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 12px;
+    filter: drop-shadow(0 4px 8px #3f689f33);
+    backface-visibility: hidden;
+  }
+
+  .webvis-core-text {
+    font-size: 1.2rem;
+    font-weight: 950;
+    color: #3f689f;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translateZ(0);
+  }
+
+  .webvis-satellite {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: white;
+    border: 1px solid #3f689f25;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3f689f;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+    z-index: 20;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    backface-visibility: hidden;
+    transform: translateZ(0);
+  }
+
+  .webvis-satellite:hover {
+    transform: scale(1.2) translate3d(0, -8px, 10px) !important;
+    border-color: #3f689f;
+    background: #3f689f;
+    color: white;
+    box-shadow: 0 20px 40px #3f689f44;
+  }
+
+  .webvis-satellite svg {
+    width: 32px;
+    height: 32px;
+    backface-visibility: hidden;
+  }
+
+  .webvis-connector {
+    position: absolute;
+    z-index: 5;
+    pointer-events: none;
+  }
+
+  .webvis-connector line {
+    stroke-dasharray: 4, 6;
+    stroke-width: 2;
+    stroke: #3f689f15;
+    animation: webvis-dash 3s linear infinite;
+  }
+
+  .webvis-orbit-ring {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    border: 2px solid #3f689f08;
+    border-radius: 50%;
+    animation: webvis-rotate 40s linear infinite;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+  }
+
+  @media (max-width: 1199px) {
+    .webvis-container {
+      transform: scale(0.85);
+    }
+  }
+
+  @media (max-width: 991px) {
+    .webvis-container {
+      width: 500px;
+      height: 500px;
+      transform: scale(0.9);
+      margin: 40px auto;
+    }
+    .webvis-core-hub {
+      width: 200px;
+      height: 200px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .webvis-container {
+      width: 400px;
+      height: 400px;
+      transform: scale(0.8);
+    }
+    .webvis-core-hub {
+      width: 160px;
+      height: 160px;
+      border-radius: 30px;
+    }
+    .webvis-core-logo {
+      width: 70px;
+      height: 70px;
+    }
+    .webvis-core-text {
+      font-size: 0.9rem;
+    }
+    .webvis-satellite {
+      width: 50px;
+      height: 50px;
+      border-radius: 12px;
+    }
+    .webvis-satellite svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .webvis-container {
+      width: 300px;
+      height: 380px;
+      transform: scale(0.85);
+    }
+    .webvis-core-hub {
+      width: 140px;
+      height: 140px;
+      border-radius: 20px;
+    }
+    .webvis-core-logo {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 5px;
+    }
+    .webvis-core-text {
+      font-size: 0.75rem;
+    }
+    .webvis-satellite {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+    }
+    .webvis-satellite svg {
+      width: 20px;
+      height: 20px;
+    }
+  }

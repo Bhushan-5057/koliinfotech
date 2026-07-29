@@ -1,0 +1,88 @@
+﻿.float-tabs {
+      z-index: 10000;
+    }
+
+    .float-tab {
+      position: relative;
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-left: none;
+      border-radius: 0 50px 50px 0;
+      height: 58px;
+      padding: 0 16px 0 14px;
+      margin-left: 0;
+      width: 58px;
+      overflow: visible;
+      white-space: nowrap;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      transition:
+        box-shadow 0.25s ease,
+        border-color 0.25s ease,
+        transform 0.25s ease;
+    }
+
+    .float-tab:hover,
+    .float-tab:focus-visible {
+      box-shadow: 0 10px 25px rgba(63, 104, 159, 0.18);
+      border-color: #cbd5e1;
+      outline: none;
+      z-index: 1;
+    }
+
+    .float-tab__icon-wrap {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      flex-shrink: 0;
+    }
+
+    .float-tab .float-tab__img {
+      width: 34px;
+      height: 34px;
+      object-fit: contain;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .float-tab:hover .float-tab__img,
+    .float-tab:focus-visible .float-tab__img {
+      transform: scale(1.1);
+    }
+
+    .float-tab__label {
+      position: absolute;
+      left: calc(100% + 10px);
+      top: 50%;
+      transform: translateY(-50%) translateX(-6px);
+      display: inline-block;
+      color: #1e293b;
+      font-weight: 600;
+      font-size: 0.85rem;
+      margin-left: 0;
+      padding: 8px 14px;
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(15, 23, 42, 0.1);
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition:
+        opacity 0.2s ease,
+        transform 0.25s ease,
+        visibility 0.2s ease;
+      max-width: 260px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .float-tab:hover .float-tab__label,
+    .float-tab:focus-visible .float-tab__label {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(-50%) translateX(0);
+    }
+

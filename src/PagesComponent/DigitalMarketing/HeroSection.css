@@ -1,0 +1,37 @@
+﻿@keyframes dm-float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    @keyframes dm-pulse {
+      0%, 100% { opacity: 0.6; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.05); }
+    }
+    .dm-viewport {
+      width: 520px;
+      height: 480px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .dm-card {
+      position: absolute;
+      background: white;
+      border-radius: 16px;
+      border: 1px solid #3f689f22;
+      box-shadow: 0 12px 40px #3f689f15;
+      padding: 16px 20px;
+      animation: dm-float 4s ease-in-out infinite;
+    }
+    .dm-chart-bar {
+      display: flex;
+      align-items: flex-end;
+      gap: 6px;
+      height: 60px;
+    }
+    .dm-bar {
+      width: 12px;
+      border-radius: 4px 4px 0 0;
+      background: linear-gradient(to top, #3f689f, #60a5fa);
+    }
+

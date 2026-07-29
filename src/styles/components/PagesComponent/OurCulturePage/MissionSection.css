@@ -1,0 +1,14 @@
+.lg-image-button {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+            background: transparent;
+            display: block;
+          }
+          .lg-image-button:focus-visible {
+            outline: 2px solid #3f689f;
+            outline-offset: 2px;
+          }

@@ -1,0 +1,168 @@
+.hero {
+    padding: 0 10px 0 10px;
+    background: #3f689f;
+    color: white;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: center;
+    gap: 32px;
+}
+
+.leftCol {
+    padding: 20px 0;
+    min-width: 0;
+}
+
+.sectionTitle {
+    max-width: 520px;
+}
+
+.subTitle {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.heading {
+    font-size: 40px;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+.heading span {
+    color: #06edf5;
+}
+
+/* RIGHT SIDE */
+.rightCol {
+    position: relative;
+    min-width: 0;
+    overflow: hidden;
+    height: 100%
+}
+
+.technologiesItems {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transform: rotate(-45deg);
+    transform-origin: center;
+}
+
+.technologiesList {
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+}
+
+.technologiesListWrap {
+    display: flex;
+    gap: 32px;
+    width: max-content;
+    will-change: transform;
+}
+
+.technologiesList img {
+    background: #feffff;
+    padding: 10px;
+    border-radius: 16px;
+    flex: 0 0 auto;
+    object-fit: contain;
+}
+
+/* ANIMATIONS */
+.webAppTech .technologiesListWrap {
+    animation: scrollRTL 18s linear infinite;
+}
+
+.frontEndTech .technologiesListWrap {
+    animation: scrollRTL 18s linear infinite;
+}
+
+.reverseLoop .technologiesListWrap {
+    animation: scrollLTR 18s linear infinite;
+}
+
+.backEndTech .technologiesListWrap {
+    animation: scrollRTL 18s linear infinite;
+}
+
+@keyframes scrollRTL {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes scrollLTR {
+    from {
+        transform: translateX(-50%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 1024px) {
+    /* .row {
+    grid-template-columns: 1fr;
+  } */
+
+    .technologiesItems {
+        transform: rotate(-55deg);
+    }
+}
+
+@media (max-width: 992px) {
+    .row {
+        grid-template-columns: 1fr;
+    }
+
+    .technologiesItems {
+        transform: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 60px 0;
+    }
+
+    .heading {
+        font-size: 32px;
+    }
+
+    .technologiesItems {
+        gap: 16px;
+        transform: none;
+    }
+
+    .technologiesList img {
+        padding: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 16px;
+    }
+
+    .heading {
+        font-size: 28px;
+    }
+}

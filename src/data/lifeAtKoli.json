@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "title": "Customer-Centric Approach",
+      "icon": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771655974/koli/lifeAtKoliSection/l1dy7fm7lmmbgze2kuv2.png",
+      "description": "Everything we do begins with understanding our clients' goals. We focus on building long-term partnerships by delivering innovative solutions that solve real business challenges, create measurable value, and exceed customer expectations."
+    },
+    {
+      "id": 2,
+      "title": "Respect & Inclusion",
+      "icon": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771656125/koli/lifeAtKoliSection/a95gahhemkgnkf9p4s6i.png",
+      "description": "We foster a workplace built on mutual respect, trust, and inclusivity. Every team member's ideas, perspectives, and contributions are valued, creating an environment where collaboration and innovation naturally thrive."
+    },
+    {
+      "id": 3,
+      "title": "Commitment to Excellence",
+      "icon": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771656152/koli/lifeAtKoliSection/ijgyayxngzmvkvvbgnuw.png",
+      "description": "Excellence is at the heart of every project we deliver. From planning and design to development and deployment, we maintain the highest quality standards to ensure reliable, scalable, and impactful digital solutions."
+    },
+    {
+      "id": 4,
+      "title": "Integrity & Transparency",
+      "icon": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771656178/koli/lifeAtKoliSection/iaety6p07lia9cqkrgtm.png",
+      "description": "Honesty, accountability, and transparency guide every interaction with our clients and colleagues. We build lasting relationships through open communication, ethical practices, and delivering on our commitments."
+    },
+    {
+      "id": 5,
+      "title": "Innovation & Continuous Learning",
+      "icon": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771656238/koli/lifeAtKoliSection/ihck8hcnin5yynni5rda.png",
+      "description": "Technology evolves rapidly, and so do we. We embrace continuous learning, explore emerging technologies, and encourage creative thinking to develop innovative solutions that keep our clients ahead of the competition."
+    },
+    {
+      "id": 6,
+      "title": "Collaboration & Teamwork",
+      "icon": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771656277/koli/lifeAtKoliSection/doitrwcj93vsoo2by4vd.png",
+      "description": "Great products are built by great teams. We encourage collaboration across every department, combining diverse skills and expertise to solve complex challenges and deliver exceptional results together."
+    }
+  ]

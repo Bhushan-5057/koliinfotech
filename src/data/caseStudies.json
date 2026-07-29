@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "slug": "healthcare-patient-engagement-platform",
+    "title": "Healthcare Patient Engagement Platform",
+    "clientType": "Regional Healthcare Network",
+    "industry": "Healthcare",
+    "technologies": ["React", "Node.js", "PostgreSQL", "AWS", "HL7 FHIR"],
+    "duration": "6 months",
+    "challenge": "The client struggled with fragmented patient communication, missed appointments, and manual follow-ups across clinics. Care teams spent hours on phone coordination instead of clinical work.",
+    "solution": "We designed a unified patient engagement platform with appointment orchestration, secure messaging, automated reminders, and clinician dashboards tailored to real clinical workflows.",
+    "implementation": [
+      "Mapped clinical workflows with doctors, nurses, and front-desk staff",
+      "Built role-based portals for patients and care coordinators",
+      "Integrated scheduling systems and notification channels",
+      "Added audit logging and privacy-first access controls",
+      "Rolled out in phased clinic waves with training support"
+    ],
+    "results": [
+      "Reduced no-show rates through timely multi-channel reminders",
+      "Improved care-team response times with centralized inboxes",
+      "Cut manual coordination overhead for front-desk operations"
+    ],
+    "statistics": [
+      { "label": "No-show reduction", "value": "32%" },
+      { "label": "Faster follow-ups", "value": "2.4x" },
+      { "label": "Clinics onboarded", "value": "18" }
+    ],
+    "businessImpact": "The network improved patient continuity of care while giving clinical staff more time for high-value interactions, supporting both patient satisfaction and operational efficiency.",
+    "testimonial": {
+      "quote": "KOLI Infotech understood clinical realities, not just software. The platform felt natural for our teams from week one.",
+      "author": "Operations Director",
+      "role": "Regional Healthcare Network"
+    },
+    "image": "../assets/images/healthcare.jpg",
+    "gallery": []
+  },
+  {
+    "id": 2,
+    "slug": "logistics-fleet-visibility-system",
+    "title": "Real-Time Fleet Visibility for Logistics",
+    "clientType": "Multi-City Logistics Provider",
+    "industry": "Logistics",
+    "technologies": ["React Native", "Node.js", "MongoDB", "Redis", "Google Maps API"],
+    "duration": "5 months",
+    "challenge": "Dispatch teams lacked live visibility into vehicles, delays, and delivery exceptions, causing customer complaints and inefficient route adjustments.",
+    "solution": "We built a real-time fleet visibility system with live tracking, exception alerts, driver mobile workflows, and an operations control tower.",
+    "implementation": [
+      "Designed driver app workflows for status and proof of delivery",
+      "Implemented live location streaming and geofenced events",
+      "Created dispatcher dashboards with SLA risk indicators",
+      "Integrated customer notification triggers for delays",
+      "Optimized for low-bandwidth field conditions"
+    ],
+    "results": [
+      "Improved on-time delivery performance across routes",
+      "Reduced customer status inquiry volume",
+      "Enabled proactive exception handling by dispatchers"
+    ],
+    "statistics": [
+      { "label": "On-time improvement", "value": "21%" },
+      { "label": "Support ticket drop", "value": "38%" },
+      { "label": "Active vehicles", "value": "240+" }
+    ],
+    "businessImpact": "Operations shifted from reactive firefighting to proactive control, improving customer trust and utilization of existing fleet capacity.",
+    "testimonial": {
+      "quote": "We finally see issues before customers call us. That alone changed how our dispatch floor works.",
+      "author": "Head of Operations",
+      "role": "Logistics Provider"
+    },
+    "image": "../assets/images/logistic.jpg",
+    "gallery": []
+  },
+  {
+    "id": 3,
+    "slug": "ride-booking-marketplace-platform",
+    "title": "Ride Booking Marketplace Platform",
+    "clientType": "Urban Mobility Startup",
+    "industry": "Ride Booking",
+    "technologies": ["Flutter", "Node.js", "PostgreSQL", "Socket.io", "Stripe"],
+    "duration": "8 months",
+    "challenge": "The startup needed a production-ready ride marketplace covering rider demand, driver supply, pricing, payments, and safety — without sacrificing launch speed.",
+    "solution": "We delivered a dual-sided ride booking platform with matching logic, live trip tracking, wallet/payments, ratings, and admin controls for growth operations.",
+    "implementation": [
+      "Built rider and driver mobile apps with shared design system",
+      "Implemented matching, surge-aware pricing hooks, and trip state machines",
+      "Integrated payments, refunds, and settlement reports",
+      "Added SOS workflows and trip-sharing safety features",
+      "Launched city-wise with feature flags and analytics"
+    ],
+    "results": [
+      "Successful multi-city launch with stable trip completion rates",
+      "Reduced payment reconciliation effort for finance teams",
+      "Enabled data-driven expansion decisions"
+    ],
+    "statistics": [
+      { "label": "Trip completion", "value": "94%" },
+      { "label": "Avg. match time", "value": "48s" },
+      { "label": "Cities launched", "value": "4" }
+    ],
+    "businessImpact": "The startup reached product-market fit faster with a reliable core platform and operational tooling ready for scale.",
+    "testimonial": {
+      "quote": "KOLI helped us move from prototype thinking to a marketplace that could actually run day-to-day operations.",
+      "author": "Founder",
+      "role": "Mobility Startup"
+    },
+    "image": "../assets/images/ride_booking.jpg",
+    "gallery": []
+  },
+  {
+    "id": 4,
+    "slug": "real-estate-crm-and-listings-suite",
+    "title": "Real Estate CRM & Listings Suite",
+    "clientType": "Property Brokerage Group",
+    "industry": "Real Estate",
+    "technologies": ["Next.js", "Node.js", "MySQL", "Elasticsearch", "AWS S3"],
+    "duration": "4 months",
+    "challenge": "Agents worked across spreadsheets, WhatsApp threads, and outdated listing pages, causing lead leakage and inconsistent property information.",
+    "solution": "We created an integrated CRM and listings suite with lead pipelines, property inventory, document vaults, and public listing experiences.",
+    "implementation": [
+      "Unified lead capture from web, ads, and referrals",
+      "Built agent pipeline boards with reminders and handoffs",
+      "Implemented searchable property inventory with media management",
+      "Added role permissions for brokers, agents, and admins",
+      "Launched SEO-friendly public listing pages"
+    ],
+    "results": [
+      "Higher lead-to-visit conversion through structured follow-ups",
+      "Reduced duplicate listings and data inconsistencies",
+      "Improved agent productivity with one system of record"
+    ],
+    "statistics": [
+      { "label": "Lead conversion lift", "value": "27%" },
+      { "label": "Faster listing updates", "value": "3x" },
+      { "label": "Active agents", "value": "85" }
+    ],
+    "businessImpact": "The brokerage standardized growth operations and presented a more professional digital experience to property seekers.",
+    "testimonial": {
+      "quote": "Our agents finally work from one place. Follow-ups are consistent and listings stay accurate.",
+      "author": "Managing Partner",
+      "role": "Property Brokerage"
+    },
+    "image": "../assets/images/real_estate.jpg",
+    "gallery": []
+  },
+  {
+    "id": 5,
+    "slug": "edtech-learning-management-platform",
+    "title": "EdTech Learning Management Platform",
+    "clientType": "Education Technology Company",
+    "industry": "Education",
+    "technologies": ["React", "NestJS", "PostgreSQL", "FFmpeg", "Cloudflare"],
+    "duration": "7 months",
+    "challenge": "The client needed a scalable LMS for live classes, recorded content, assessments, and progress tracking across institutions.",
+    "solution": "We built a modular LMS with learner journeys, educator tools, assessment engines, and institution-level reporting.",
+    "implementation": [
+      "Designed learner and educator experiences around daily teaching rituals",
+      "Implemented video delivery, class schedules, and attendance",
+      "Built quizzes, assignments, and progress analytics",
+      "Added institution admin controls and branding options",
+      "Hardened performance for concurrent class peaks"
+    ],
+    "results": [
+      "Improved course completion through clearer learning paths",
+      "Reduced support tickets related to class access issues",
+      "Enabled institution dashboards for academic oversight"
+    ],
+    "statistics": [
+      { "label": "Completion rate lift", "value": "19%" },
+      { "label": "Concurrent learners", "value": "12k+" },
+      { "label": "Institutions live", "value": "30" }
+    ],
+    "businessImpact": "The platform became a reliable delivery engine for digital learning programs and opened new B2B institution revenue channels.",
+    "testimonial": {
+      "quote": "They delivered an LMS that teachers can actually run classes on — stable, clear, and fast.",
+      "author": "Product Head",
+      "role": "EdTech Company"
+    },
+    "image": "../assets/images/education.jpg",
+    "gallery": []
+  },
+  {
+    "id": 6,
+    "slug": "manufacturing-erp-modernization",
+    "title": "Manufacturing ERP Modernization",
+    "clientType": "Mid-Market Manufacturer",
+    "industry": "Manufacturing",
+    "technologies": ["Angular", ".NET", "SQL Server", "Azure", "Power BI"],
+    "duration": "9 months",
+    "challenge": "Legacy ERP modules could not support modern inventory, production planning, or leadership reporting, creating delays across plants.",
+    "solution": "We modernized critical ERP modules with cleaner workflows, better inventory visibility, and executive analytics while preserving essential business rules.",
+    "implementation": [
+      "Audited legacy processes and identified high-friction modules",
+      "Rebuilt inventory and production planning experiences",
+      "Introduced role-based approvals and audit trails",
+      "Connected plant data to leadership dashboards",
+      "Migrated in waves to protect ongoing operations"
+    ],
+    "results": [
+      "Reduced stock discrepancies across warehouses",
+      "Shortened planning cycles for production teams",
+      "Improved decision speed for plant leadership"
+    ],
+    "statistics": [
+      { "label": "Inventory accuracy", "value": "+24%" },
+      { "label": "Planning cycle cut", "value": "35%" },
+      { "label": "Modules modernized", "value": "6" }
+    ],
+    "businessImpact": "The manufacturer gained operational clarity without a disruptive full rewrite, unlocking better throughput and lower process waste.",
+    "testimonial": {
+      "quote": "This was modernization done carefully. We kept business running and still ended with a much stronger ERP core.",
+      "author": "CIO",
+      "role": "Manufacturing Company"
+    },
+    "image": "../assets/images/manufacturing.jpg",
+    "gallery": []
+  },
+  {
+    "id": 7,
+    "slug": "crm-revenue-operations-platform",
+    "title": "CRM Revenue Operations Platform",
+    "clientType": "B2B Services Enterprise",
+    "industry": "CRM",
+    "technologies": ["React", "Node.js", "PostgreSQL", "Segment", "HubSpot API"],
+    "duration": "5 months",
+    "challenge": "Sales, marketing, and customer success used disconnected tools, creating pipeline blind spots and inconsistent handoffs.",
+    "solution": "We implemented a revenue operations CRM platform that unified lead lifecycle stages, activity tracking, forecasting, and customer health signals.",
+    "implementation": [
+      "Defined a shared lifecycle model across teams",
+      "Built CRM workflows for lead routing and SLA alerts",
+      "Integrated marketing attribution and success health scores",
+      "Created forecast views for leadership reviews",
+      "Trained teams and refined processes after go-live"
+    ],
+    "results": [
+      "Improved pipeline visibility and forecast confidence",
+      "Reduced lead response latency",
+      "Strengthened handoffs between sales and success"
+    ],
+    "statistics": [
+      { "label": "Lead response time", "value": "-46%" },
+      { "label": "Forecast accuracy", "value": "+18%" },
+      { "label": "Teams unified", "value": "3" }
+    ],
+    "businessImpact": "Revenue teams now operate from shared truth, improving conversion discipline and customer expansion readiness.",
+    "testimonial": {
+      "quote": "We stopped arguing about whose spreadsheet was right. The CRM finally reflects how we sell.",
+      "author": "VP Revenue",
+      "role": "B2B Services"
+    },
+    "image": "../assets/images/crm.jpg",
+    "gallery": []
+  },
+  {
+    "id": 8,
+    "slug": "ecommerce-conversion-rebuild",
+    "title": "E-commerce Conversion Rebuild",
+    "clientType": "D2C Retail Brand",
+    "industry": "E-commerce",
+    "technologies": ["Next.js", "Shopify", "Node.js", "Tailwind", "GA4"],
+    "duration": "3 months",
+    "challenge": "The brand's storefront had strong traffic but weak conversion due to slow pages, confusing navigation, and checkout friction.",
+    "solution": "We rebuilt the storefront experience with performance-first architecture, clearer merchandising UX, and streamlined checkout flows.",
+    "implementation": [
+      "Rebuilt critical templates with performance budgets",
+      "Improved product discovery and filtering UX",
+      "Simplified checkout steps and payment error handling",
+      "Implemented experiment-ready analytics events",
+      "Launched iteratively with A/B validation"
+    ],
+    "results": [
+      "Higher conversion rate on mobile and desktop",
+      "Lower bounce on category and PDP pages",
+      "Improved average order value through better merchandising"
+    ],
+    "statistics": [
+      { "label": "Conversion lift", "value": "29%" },
+      { "label": "LCP improvement", "value": "41%" },
+      { "label": "Checkout drop-off cut", "value": "22%" }
+    ],
+    "businessImpact": "The brand converted existing demand more efficiently, improving revenue without proportional increases in ad spend.",
+    "testimonial": {
+      "quote": "The site feels premium and fast. More importantly, customers actually complete purchases now.",
+      "author": "Growth Lead",
+      "role": "D2C Brand"
+    },
+    "image": "../assets/images/ecommerce.jpg",
+    "gallery": []
+  },
+  {
+    "id": 9,
+    "slug": "fintech-digital-onboarding-suite",
+    "title": "FinTech Digital Onboarding Suite",
+    "clientType": "Digital Finance Startup",
+    "industry": "FinTech",
+    "technologies": ["React Native", "NestJS", "PostgreSQL", "AWS", "KYC APIs"],
+    "duration": "6 months",
+    "challenge": "Manual onboarding and fragmented KYC checks slowed customer activation and created compliance risk.",
+    "solution": "We delivered a secure digital onboarding suite with guided KYC, risk checks, status tracking, and operations review queues.",
+    "implementation": [
+      "Designed mobile-first onboarding journeys with clear progress",
+      "Integrated KYC/AML providers and document verification",
+      "Built analyst review consoles with audit trails",
+      "Added fraud signals and retry-safe submission flows",
+      "Aligned release process with compliance stakeholders"
+    ],
+    "results": [
+      "Faster customer activation with fewer manual touchpoints",
+      "Improved compliance evidence and audit readiness",
+      "Reduced onboarding support load"
+    ],
+    "statistics": [
+      { "label": "Onboarding time cut", "value": "58%" },
+      { "label": "Auto-approval rate", "value": "71%" },
+      { "label": "Ops review efficiency", "value": "2.1x" }
+    ],
+    "businessImpact": "The startup scaled acquisition while strengthening trust, compliance posture, and operational throughput.",
+    "testimonial": {
+      "quote": "KOLI balanced speed and compliance — exactly what a FinTech onboarding system needs.",
+      "author": "CTO",
+      "role": "Digital Finance Startup"
+    },
+    "image": "../assets/images/fintech.jpg",
+    "gallery": []
+  },
+  {
+    "id": 10,
+    "slug": "enterprise-cloud-devops-transformation",
+    "title": "Enterprise Cloud & DevOps Transformation",
+    "clientType": "Multi-Product Software Company",
+    "industry": "ERP",
+    "technologies": ["AWS", "Terraform", "GitHub Actions", "Docker", "Kubernetes", "Datadog"],
+    "duration": "5 months",
+    "challenge": "Release cycles were slow and fragile, with inconsistent environments and limited production visibility across product teams.",
+    "solution": "We established a cloud landing zone, CI/CD standards, environment parity, and observability practices that product teams could adopt independently.",
+    "implementation": [
+      "Designed AWS landing zones with identity and network baselines",
+      "Standardized CI/CD pipelines and deployment strategies",
+      "Containerized critical services and improved staging parity",
+      "Implemented centralized logging, metrics, and alerting",
+      "Coached squads on runbooks and release ownership"
+    ],
+    "results": [
+      "Shorter lead time for changes across squads",
+      "Fewer failed deployments and faster recovery",
+      "Higher confidence in production operations"
+    ],
+    "statistics": [
+      { "label": "Deploy frequency", "value": "4x" },
+      { "label": "Failed deploy drop", "value": "63%" },
+      { "label": "MTTR improvement", "value": "47%" }
+    ],
+    "businessImpact": "Engineering became a competitive advantage — teams shipped faster with clearer ownership and stronger reliability.",
+    "testimonial": {
+      "quote": "Our delivery system finally matches the ambition of our product roadmap.",
+      "author": "VP Engineering",
+      "role": "Software Company"
+    },
+    "image": "../assets/images/erp.jpg",
+    "gallery": []
+  }
+]

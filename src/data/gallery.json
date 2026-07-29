@@ -1,0 +1,128 @@
+[
+    {
+      "id": 1,
+      "title": "Team Collaboration",
+      "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771663231/koli/ourCultureSection/ufbslyranuwb3plop9cp.jpg",
+      "location": "Koli Headquarters",
+      "description": "Our collaborative work culture encourages teamwork, knowledge sharing, and innovative thinking. Every project is built through open communication and mutual support."
+    },
+    {
+      "id": 2,
+      "title": "Birthday Celebrations",
+      "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771664361/koli/ourCultureSection/ijo3o3uurkliuddfnwz0.jpg",
+      "location": "Celebration Zone",
+      "description": "Every birthday is a special occasion at KOLI Infotech. We celebrate together to create lasting memories and strengthen the bonds within our growing team."
+    },
+    {
+      "id": 3,
+      "title": "Christmas Celebration",
+      "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771664406/koli/ourCultureSection/xasjjnrmsxbxqiowqyms.jpg",
+      "location": "Main Office",
+      "description": "Our Christmas celebrations bring festive joy, team bonding, and a spirit of gratitude, making the workplace vibrant and full of positive energy."
+    },
+    {
+      "id": 4,
+      "title": "Annual Team Offsite",
+      "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771664446/koli/ourCultureSection/llr2cdbewqcfbkmwzq5f.jpg",
+      "location": "Resort Retreat",
+      "description": "Our annual offsite is dedicated to team building, strategic planning, fun activities, and creating unforgettable experiences beyond the workplace."
+    },
+    {
+      "id": 5,
+      "title": "Ganesh Chaturthi Celebration",
+      "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771664528/koli/ourCultureSection/zr1eqxclfowhl5zvt5xg.jpg",
+      "location": "Development Center",
+      "description": "We celebrate Ganesh Chaturthi together by embracing tradition, culture, and unity while strengthening our workplace community."
+    },
+    {
+      "id": 6,
+      "title": "Women's Day Celebration",
+      "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771664557/koli/ourCultureSection/u3ceoflz0wuwmzd8ydnb.jpg",
+      "location": "Development Center",
+      "description": "Women's Day is an opportunity to recognize and celebrate the achievements, leadership, and valuable contributions of women across our organization."
+    },
+    {
+      "id": 7,
+      "title": "Teej Festival Celebration",
+      "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771664632/koli/ourCultureSection/rwt8xczvjpl9b9ug8kud.jpg",
+      "location": "Koli Headquarters",
+      "description": "Festivals like Teej allow us to celebrate cultural diversity while creating meaningful moments with our colleagues."
+    },
+    {
+      "id": 8,
+      "title": "Traditional Teej Celebration",
+      "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771664651/koli/ourCultureSection/w0jdonnapmbngx9ihyjs.jpg",
+      "location": "Koli Headquarters",
+      "description": "Our workplace embraces cultural traditions through vibrant celebrations that promote inclusivity, happiness, and team spirit."
+    },
+    {
+      "id": 9,
+      "title": "Dussehra Celebration",
+      "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771664692/koli/ourCultureSection/nbynttpui1ky88uo5wds.jpg",
+      "location": "Koli Headquarters",
+      "description": "Celebrating Dussehra reminds us of the values of positivity, integrity, and continuous growth as a team."
+    },
+    {
+      "id": 10,
+      "title": "Festive Moments",
+      "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771664707/koli/ourCultureSection/s8782jkixzskmvaw2bws.jpg",
+      "location": "Koli Headquarters",
+      "description": "Festivals bring our teams together, creating an engaging workplace where every celebration strengthens relationships."
+    },
+    {
+      "id": 11,
+      "title": "Movie Night",
+      "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771664804/koli/ourCultureSection/bqtavxxwfbwi9hbwwgha.jpg",
+      "location": "Movie Theatre",
+      "description": "We believe in maintaining a healthy work-life balance by organizing recreational outings that encourage relaxation and stronger team connections."
+    },
+    {
+      "id": 12,
+      "title": "Meet Our Team",
+      "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771664873/koli/ourCultureSection/js0yuud3gnsmxvtwwprl.jpg",
+      "location": "Koli Headquarters",
+      "description": "Behind every successful project is a passionate team of designers, developers, QA engineers, and innovators committed to excellence."
+    },
+    {
+      "id": 13,
+      "title": "Office Trip",
+      "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771664957/koli/ourCultureSection/rqdvhw4z8smpn5hv9if2.jpg",
+      "location": "Dumas Beach",
+      "description": "Outdoor trips provide opportunities to unwind, connect beyond work, and create memorable experiences together."
+    },
+    {
+      "id": 14,
+      "title": "Team Outing",
+      "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771664978/koli/ourCultureSection/w66t5iilzug6porec3vz.jpg",
+      "location": "Dumas Beach",
+      "description": "Our team outings strengthen collaboration, boost morale, and encourage meaningful interactions in a relaxed environment."
+    },
+    {
+      "id": 15,
+      "title": "Annual Celebration",
+      "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771665068/koli/ourCultureSection/szyordqtgmluyqfynkgo.jpg",
+      "location": "Riverside Restaurant",
+      "description": "Celebrating milestones together reinforces our culture of appreciation, recognition, and shared success."
+    },
+    {
+      "id": 16,
+      "title": "Team Dinner",
+      "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771665116/koli/ourCultureSection/wod5zzbslv7ticp4z7vh.jpg",
+      "location": "Riverside Restaurant",
+      "description": "Informal gatherings outside the office help us build stronger relationships and maintain a positive workplace culture."
+    },
+    {
+      "id": 17,
+      "title": "Celebrating Success Together",
+      "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771665156/koli/ourCultureSection/y5ryuarlyy06r6rhutny.jpg",
+      "location": "Riverside Restaurant",
+      "description": "Every achievement is celebrated together, recognizing the dedication, hard work, and collaboration that drive our success."
+    },
+    {
+      "id": 18,
+      "title": "KOLI Infotech Family",
+      "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1772095741/koli/ourCultureSection/v2tx17drtmms0xk8qc9m.jpg",
+      "location": "Development Center",
+      "description": "We are more than colleagues—we are a family united by innovation, collaboration, continuous learning, and a shared passion for building impactful technology solutions."
+    }
+  ]

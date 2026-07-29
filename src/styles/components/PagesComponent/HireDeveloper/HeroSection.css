@@ -1,0 +1,75 @@
+@keyframes hirevis-float {
+    0%, 100% { transform: translateY(0px) scale(1); }
+    50% { transform: translateY(-10px) scale(1.02); }
+  }
+  @keyframes hirevis-connect {
+    0% { stroke-dashoffset: 200; opacity: 0; }
+    50% { opacity: 0.5; }
+    100% { stroke-dashoffset: 0; opacity: 1; }
+  }
+  @keyframes hirevis-pulse {
+    0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(63,104,159,0.2); }
+    50% { transform: scale(1.1); box-shadow: 0 0 20px 10px rgba(63,104,159,0); }
+  }
+
+  .hirevis-talent-grid {
+    width: 380px;
+    height: 380px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hirevis-avatar {
+    width: 60px;
+    height: 60px;
+    background: white;
+    border-radius: 50%;
+    border: 2px solid #60a5fa;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    z-index: 5;
+    animation: hirevis-float 4s ease-in-out infinite;
+  }
+  .hirevis-central-node {
+    width: 100px;
+    height: 100px;
+    background: #3f689f;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    z-index: 10;
+    animation: hirevis-pulse 3s infinite;
+  }
+  .hirevis-connection {
+    stroke: #5b9bd5;
+    stroke-width: 2;
+    stroke-dasharray: 200;
+    animation: hirevis-connect 3s ease-in-out infinite;
+    opacity: 0.3;
+  }
+
+  @media (max-width: 576px) {
+    .hirevis-central-node {
+      width: 70px;
+      height: 70px;
+    }
+    .hirevis-central-node svg {
+      width: 24px;
+      height: 24px;
+    }
+    .hirevis-avatar {
+      width: 44px;
+      height: 44px;
+    }
+    .hirevis-avatar svg {
+      width: 18px;
+      height: 18px;
+    }
+  }

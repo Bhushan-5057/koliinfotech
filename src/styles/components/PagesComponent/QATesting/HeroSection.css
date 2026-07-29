@@ -1,0 +1,151 @@
+@keyframes qa-dash-draw {
+    to { stroke-dashoffset: 0; }
+  }
+  @keyframes qa-node-fade {
+    from { opacity: 0; transform: translateX(20px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+  @keyframes qa-hub-glow {
+    0%, 100% { box-shadow: 0 0 30px #3f689f22, inset 0 0 15px rgba(255,255,255,0.1); }
+    50% { box-shadow: 0 0 50px #3f689f44, inset 0 0 25px rgba(255,255,255,0.2); }
+  }
+
+  .qastages-container {
+    width: 100%;
+    max-width: 650px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .qastages-hub {
+    width: 240px;
+    height: 240px;
+    background: #3f689f;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    z-index: 10;
+    text-align: center;
+    padding: 30px;
+    border: 8px solid white;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+    animation: qa-hub-glow 4s infinite ease-in-out;
+  }
+
+  .qastages-hub-title {
+    font-size: 1.8rem;
+    font-weight: 950;
+    line-height: 1.1;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+
+  .qastages-hub-subtitle {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: 5px;
+    opacity: 0.9;
+    text-transform: lowercase;
+  }
+
+  .qastages-right-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 10;
+  }
+
+  .qastage-pill {
+    width: 280px;
+    height: 55px;
+    background: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.04);
+    border: 1.5px solid #3f689f15;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: default;
+    animation: qa-node-fade 0.5s ease both;
+  }
+
+  .qastage-pill:hover {
+    background: #3f689f;
+    border-color: #3f689f;
+    transform: translateX(10px);
+    box-shadow: 0 10px 25px #3f689f33;
+  }
+
+  .qastage-number {
+    width: 45px;
+    height: 45px;
+    background: #3f689f15;
+    color: #3f689f;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 900;
+    transition: all 0.3s ease;
+  }
+
+  .qastage-pill:hover .qastage-number {
+    background: white;
+    color: #3f689f;
+  }
+
+  .qastage-label {
+    flex-grow: 1;
+    padding-left: 15px;
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #3f689f; /* Changed from BRAND_BLUE to theme blue */
+    transition: color 0.3s ease;
+  }
+
+  .qastage-pill:hover .qastage-label {
+    color: white;
+  }
+
+  .qastages-connector-svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .qastage-line {
+    fill: none;
+    stroke: #3f689f;
+    stroke-width: 2;
+    stroke-dasharray: 6 6;
+    stroke-dashoffset: 1000;
+    animation: qa-dash-draw 3s forwards ease-out;
+    opacity: 0.25;
+  }
+
+  @media (max-width: 991px) {
+    .qastages-container { 
+      flex-direction: column;
+      height: auto;
+      gap: 50px;
+      padding-top: 40px;
+    }
+    .qastages-connector-svg { display: none; }
+  }
+
+  @media (max-width: 575px) {
+    .qastage-pill { width: 100%; max-width: 300px; }
+    .qastages-hub { width: 200px; height: 200px; padding: 20px; }
+  }

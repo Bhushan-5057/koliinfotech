@@ -1,0 +1,90 @@
+﻿.portfolio-hero {
+              background:
+                radial-gradient(ellipse 80% 55% at 50% -10%, rgba(63, 104, 159, 0.14), transparent 55%),
+                linear-gradient(180deg, #f0f4ff 0%, #ffffff 52%, #ffffff 100%);
+            }
+
+            .portfolio-hero__glow {
+              position: absolute;
+              border-radius: 50%;
+              filter: blur(70px);
+              pointer-events: none;
+            }
+
+            .portfolio-hero__glow--left {
+              width: 280px;
+              height: 280px;
+              top: 16%;
+              left: -5%;
+              background: rgba(91, 155, 213, 0.2);
+            }
+
+            .portfolio-hero__glow--right {
+              width: 240px;
+              height: 240px;
+              bottom: 6%;
+              right: -4%;
+              background: rgba(63, 104, 159, 0.14);
+            }
+
+            .portfolio-hero__grid {
+              position: absolute;
+              inset: 0;
+              background-image:
+                linear-gradient(rgba(35, 54, 108, 0.035) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(35, 54, 108, 0.035) 1px, transparent 1px);
+              background-size: 48px 48px;
+              mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, #000 20%, transparent 75%);
+              pointer-events: none;
+            }
+
+            .portfolio-hero__brand {
+              margin: 0;
+              font-size: clamp(0.9rem, 1.5vw, 1.05rem);
+              font-weight: 800;
+              letter-spacing: 0.22em;
+              text-transform: uppercase;
+              color: #3f689f;
+            }
+
+            .portfolio-hero__chip {
+              display: inline-flex;
+              align-items: center;
+              padding: 0.45rem 0.9rem;
+              border-radius: 999px;
+              background: rgba(63, 104, 159, 0.08);
+              border: 1px solid rgba(63, 104, 159, 0.14);
+              color: #2d5073;
+              font-size: 0.75rem;
+              font-weight: 700;
+              letter-spacing: 0.02em;
+            }
+
+            .portfolio-hero__stats {
+              display: grid;
+              grid-template-columns: repeat(2, minmax(0, 1fr));
+              gap: 1.25rem 0.75rem;
+            }
+
+            .portfolio-hero__stat {
+              padding: 0.25rem 0.5rem;
+            }
+
+            @media (min-width: 768px) {
+              .portfolio-hero__stats {
+                grid-template-columns: repeat(4, minmax(0, 1fr));
+                gap: 0;
+              }
+
+              .portfolio-hero__stat--border {
+                border-left: 1px solid rgba(148, 163, 184, 0.35);
+              }
+            }
+
+            @media (max-width: 575px) {
+              .portfolio-hero__chip {
+                font-size: 0.7rem;
+                padding: 0.4rem 0.75rem;
+              }
+            }
+

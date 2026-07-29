@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "title": "Years of Experience",
+      "value": "10+",
+      "icon": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771501729/koli/accomplishments/zuwoeaowo12hhegrtdun.svg",
+      "description": "Delivering innovative software solutions across diverse industries for over a decade."
+    },
+    {
+      "id": 2,
+      "title": "Projects Delivered",
+      "value": "160+",
+      "icon": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771501845/koli/accomplishments/qres6ceodqfwx8ywmey2.svg",
+      "description": "Successfully completed projects ranging from startups to enterprise-scale applications."
+    },
+    {
+      "id": 3,
+      "title": "Happy Clients",
+      "value": "150+",
+      "icon": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771501871/koli/accomplishments/kjabczou7fqubrbcczlq.svg",
+      "description": "Trusted by businesses worldwide to deliver reliable, scalable, and high-quality digital solutions."
+    },
+    {
+      "id": 4,
+      "title": "Expert Team Members",
+      "value": "100+",
+      "icon": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771501895/koli/accomplishments/zhm0miykn2izcmk5nb9d.svg",
+      "description": "A skilled team of developers, designers, QA engineers, and technology specialists."
+    }
+  ]

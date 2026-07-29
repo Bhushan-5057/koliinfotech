@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "step": "01",
+      "title": "Discovery & Consultation",
+      "description": "We begin by understanding your business objectives, target audience, and project requirements to establish a clear vision and strategy."
+    },
+    {
+      "id": 2,
+      "step": "02",
+      "title": "Planning & Strategy",
+      "description": "Our team creates a structured roadmap, defines project milestones, selects the right technologies, and plans an efficient development approach."
+    },
+    {
+      "id": 3,
+      "step": "03",
+      "title": "Design & Development",
+      "description": "We design intuitive user experiences and develop scalable, high-performance solutions while keeping you involved throughout the process."
+    },
+    {
+      "id": 4,
+      "step": "04",
+      "title": "Testing & Deployment",
+      "description": "Before launch, we perform comprehensive quality assurance, optimize performance, and deploy the solution with ongoing post-launch support."
+    }
+  ]

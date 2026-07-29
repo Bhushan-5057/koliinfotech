@@ -1,0 +1,158 @@
+.isometric-wrapper {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            perspective: 1000px;
+          }
+          .sol-float-anim-1 { animation: sol-float 3s ease-in-out infinite; }
+          .sol-float-anim-2 { animation: sol-float 4s ease-in-out infinite; }
+          .sol-float-anim-3 { animation: sol-float 3.5s ease-in-out infinite; }
+          @keyframes sol-float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+          }
+        
+
+          .feature-card-premium {
+            position: relative;
+            background: rgba(255, 255, 255, 0.02);
+            backdrop-filter: blur(10px);
+            border-radius: 32px;
+            border: 1px solid rgba(63, 104, 159, 0.1);
+            padding: 40px 30px;
+            transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow: hidden;
+            background-image: 
+              radial-gradient(circle at top right, rgba(91, 155, 213, 0.05), transparent 70%),
+              linear-gradient(rgba(255, 255, 255, 0.01) 1px, transparent 1px),
+              linear-gradient(90deg, rgba(255, 255, 255, 0.01) 1px, transparent 1px);
+            background-size: 100% 100%, 20px 20px, 20px 20px;
+          }
+
+          .feature-card-premium:hover {
+            transform: translateY(-12px);
+            border-color: rgba(91, 155, 213, 0.3);
+            box-shadow: 
+              0 25px 50px -12px rgba(63, 104, 159, 0.15),
+              0 0 30px rgba(91, 155, 213, 0.1);
+            background: rgba(255, 255, 255, 0.04);
+          }
+
+          .visual-container-mini {
+            width: 160px;
+            height: 160px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+
+          .glass-orbit-mini {
+            position: absolute;
+            inset: 0;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 50%;
+            border: 1px solid rgba(91, 155, 213, 0.1);
+            box-shadow: inset 0 0 20px rgba(91, 155, 213, 0.05);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+          }
+
+          .feature-card-premium:hover .glass-orbit-mini {
+            border-color: rgba(91, 155, 213, 0.4);
+            transform: scale(1.05);
+          }
+
+          .premium-badge {
+            background: rgba(63, 104, 159, 0.08);
+            color: #3f689f;
+            padding: 8px 18px;
+            border-radius: 50px;
+            font-size: 0.82rem;
+            font-weight: 700;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            border: 1px solid rgba(63, 104, 159, 0.12);
+          }
+
+          .premium-badge-mini {
+            background: rgba(91, 155, 213, 0.06);
+            color: #3f689f;
+            padding: 6px 14px;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 800;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            border: 1px solid rgba(91, 155, 213, 0.15);
+          }
+
+          .premium-heading {
+            font-size: clamp(2rem, 3.5vw, 2.75rem);
+            font-weight: 800;
+            color: #3f689f;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+          }
+
+          .premium-divider {
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(90deg, #3f689f, #5b9bd5);
+            border-radius: 2px;
+          }
+
+          .feature-title-centered {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #1e293b;
+            letter-spacing: -0.01em;
+          }
+
+          .feature-desc-centered {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #64748b;
+            font-weight: 500;
+          }
+
+          .corner-accent {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #5b9bd520;
+            opacity: 0;
+            transition: all 0.5s ease;
+          }
+
+          .feature-card-premium:hover .corner-accent {
+            opacity: 1;
+          }
+
+          .top-right {
+            top: 15px;
+            right: 15px;
+            border-left: none;
+            border-bottom: none;
+          }
+
+          .bottom-left {
+            bottom: 15px;
+            left: 15px;
+            border-right: none;
+            border-top: none;
+          }
+
+          @media (max-width: 991px) {
+            .feature-card-premium {
+              padding: 30px 20px;
+            }
+          }

@@ -1,0 +1,38 @@
+﻿.premium-badge {
+              display: inline-block;
+              background: rgba(63, 104, 159, 0.08);
+              color: #3f689f;
+              padding: 8px 18px;
+              border-radius: 50px;
+              font-size: 0.85rem;
+              font-weight: 700;
+              letter-spacing: 0.03em;
+              text-transform: uppercase;
+              border: 1px solid rgba(63, 104, 159, 0.15);
+              margin-bottom: 1.5rem;
+            }
+            .premium-heading {
+              font-size: clamp(1.8rem, 3.2vw, 2.4rem);
+              font-weight: 800;
+              color: #1e293b;
+              line-height: 1.25;
+              letter-spacing: -0.03em;
+              margin: 0;
+            }
+            .premium-divider {
+              width: 60px;
+              height: 4px;
+              background: linear-gradient(90deg, #3f689f, #5b9bd5);
+              border-radius: 2px;
+              box-shadow: 0 2px 4px rgba(63, 104, 159, 0.2);
+              margin-top: 1rem;
+            }
+            .service-desc {
+              font-size: 1rem;
+              line-height: 1.7;
+              color: #64748b;
+              margin-bottom: 1.5rem;
+              font-weight: 500;
+              max-width: 600px;
+            }
+

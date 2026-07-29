@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "question": "What services does KOLI Infotech offer?",
+      "answer": "KOLI Infotech provides comprehensive software development services tailored to businesses of all sizes. Our expertise includes custom software development, web application development, mobile app development, UI/UX design, cloud and DevOps solutions, AI and machine learning integration, quality assurance, and ongoing maintenance. We deliver scalable, secure, and high-performance solutions that help businesses accelerate their digital transformation."
+    },
+    {
+      "id": 2,
+      "question": "Which industries do you work with?",
+      "answer": "We collaborate with startups, small and medium-sized businesses, and large enterprises across multiple industries. Our experience includes Banking & Finance, Healthcare, Education, E-commerce, Telecommunications, Logistics, SaaS, Manufacturing, Retail, and Artificial Intelligence. Regardless of your industry, we focus on building technology solutions that solve real business challenges and drive measurable growth."
+    },
+    {
+      "id": 3,
+      "question": "What makes KOLI Infotech different from other software development companies?",
+      "answer": "We believe successful software starts with understanding your business, not just your technical requirements. Our team works closely with clients throughout every stage of the project, from discovery and planning to development, testing, deployment, and ongoing support. We prioritize transparency, quality, scalability, and long-term partnerships, ensuring every solution is built to support future business growth."
+    },
+    {
+      "id": 4,
+      "question": "Do you build custom software solutions?",
+      "answer": "Yes. Every business has unique requirements, which is why we develop custom software tailored specifically to your goals and workflows. Whether you need an enterprise application, customer portal, internal management system, CRM, ERP, or industry-specific platform, our team designs and develops solutions that fit your exact business needs."
+    },
+    {
+      "id": 5,
+      "question": "Do you provide support and maintenance after project delivery?",
+      "answer": "Absolutely. Our relationship doesn't end after deployment. We provide ongoing technical support, performance monitoring, security updates, bug fixes, feature enhancements, cloud infrastructure management, and application maintenance to ensure your software continues to perform reliably as your business grows."
+    },
+    {
+      "id": 6,
+      "question": "How long does it take to develop a software project?",
+      "answer": "The development timeline depends on the project's complexity, features, integrations, and overall scope. Small applications may take a few weeks, while enterprise-level platforms can require several months. After understanding your requirements, we provide a detailed project roadmap with estimated timelines and delivery milestones."
+    },
+    {
+      "id": 7,
+      "question": "What technologies do you specialize in?",
+      "answer": "Our team works with a modern technology stack that includes React, Angular, Next.js, Vue.js, Node.js, Python, Laravel, React Native, Flutter, MongoDB, PostgreSQL, AWS, Docker, and various cloud technologies. We always recommend the most suitable technologies based on your project requirements and long-term business objectives."
+    },
+    {
+      "id": 8,
+      "question": "Can you upgrade or modernize an existing application?",
+      "answer": "Yes. We help businesses modernize legacy systems by improving performance, enhancing security, redesigning user interfaces, migrating applications to the cloud, and integrating modern technologies. Our modernization approach minimizes downtime while extending the life and value of your existing software."
+    }
+  ]

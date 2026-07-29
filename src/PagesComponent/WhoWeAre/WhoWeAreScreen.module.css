@@ -1,0 +1,144 @@
+.aboutSection {
+    position: relative;
+    padding: clamp(3rem, 6vw, 5.5rem) 0;
+}
+
+.WhoWeAreAboutSectionInner {
+    position: relative;
+    border-radius: 28px;
+    padding: clamp(1.4rem, 3.8vw, 2.8rem);
+    overflow: hidden;
+}
+
+.WhoWeAreAboutSectionInner::before {
+    content: "";
+    position: absolute;
+    top: -58px;
+    right: -38px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.aboutSectionMotion {
+    transition:
+        transform 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+        opacity 0.7s ease-out;
+}
+
+.sectionLabel {
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.36rem 0.78rem;
+    border-radius: 999px;
+    background: rgba(44, 115, 223, 0.12);
+    color: #1c5ebf;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.aboutSectionHeading {
+    margin: 0.85rem 0 0.8rem;
+    font-size: clamp(1.9rem, 3.3vw, 2.75rem);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #101828;
+    text-transform: uppercase;
+}
+
+.aboutSectionHeading span {
+    color: #2c73df;
+}
+
+.aboutSectionSubtext {
+    max-width: 780px;
+    margin: 0;
+    font-size: clamp(0.96rem, 1.25vw, 1.05rem);
+    line-height: 1.8;
+    color: #344054;
+}
+
+.valueStrip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    margin: 1.2rem 0 2rem;
+}
+
+.valueStrip span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.56rem 0.88rem;
+    border-radius: 12px;
+    border: 1px solid rgba(44, 115, 223, 0.24);
+    background: rgba(255, 255, 255, 0.86);
+    color: #1f3d62;
+    font-size: 0.86rem;
+    font-weight: 600;
+}
+
+.aboutCardsGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.35rem;
+}
+
+.aboutCardItem {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .aboutCardsGrid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.5rem;
+    }
+
+    .aboutCardItem:last-child {
+        grid-column: 1 / -1;
+    }
+}
+
+@media (min-width: 1024px) {
+    .aboutCardsGrid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: clamp(1rem, 1.6vw, 1.45rem);
+        align-items: flex-start;
+    }
+
+    .aboutCardItem {
+        min-width: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .WhoWeAreAboutSectionInner {
+        border-radius: 20px;
+        padding: 1.25rem 1rem 1.4rem;
+    }
+
+    .aboutSectionHeading,
+    .aboutSectionSubtext {
+        text-align: center;
+    }
+
+    .sectionLabel {
+        margin: 0 auto;
+    }
+
+    .valueStrip {
+        justify-content: center;
+    }
+
+    .valueStrip span {
+        width: 100%;
+    }
+}

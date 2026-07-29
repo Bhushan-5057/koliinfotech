@@ -1,0 +1,41 @@
+/* Scoped focus cleanup for the floating call widget surface */
+  .floating-call-widget button:focus,
+  .floating-call-widget button:active,
+  .floating-call-widget button:focus-visible,
+  .floating-call-widget select:focus,
+  .floating-call-widget select:active,
+  .floating-call-widget input:focus,
+  .floating-call-widget input:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+  .floating-call-widget button,
+  .floating-call-widget select,
+  .floating-call-widget input {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .floating-call-widget .custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .floating-call-widget .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .floating-call-widget .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 10px;
+  }
+
+  .floating-call-widget .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+  }
+
+  /* Clear the mobile sticky contact bar on small screens */
+  @media (max-width: 1023px) {
+    .floating-call-anchor {
+      bottom: 5.5rem;
+    }
+  }

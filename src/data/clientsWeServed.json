@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "name": "Aaban",
+      "industry": "Healthcare",
+      "logo": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771586698/koli/ClientsWeServed/qcqaxgjzpmjer4yeu6gy.png"
+    },
+    {
+      "id": 2,
+      "name": "American Express",
+      "industry": "Financial Services",
+      "logo": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771586750/koli/ClientsWeServed/spmprwsdcdomldhzkikv.png"
+    },
+    {
+      "id": 3,
+      "name": "Astro Sadhana",
+      "industry": "Astrology & Spiritual Services",
+      "logo": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771586793/koli/ClientsWeServed/tyvtefitpgc3ipaxtaad.webp"
+    },
+    {
+      "id": 4,
+      "name": "Axis Bank",
+      "industry": "Banking & Finance",
+      "logo": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771586817/koli/ClientsWeServed/edcponhr9l2a7iuywgih.png"
+    },
+    {
+      "id": 5,
+      "name": "BYJU'S",
+      "industry": "Education Technology",
+      "logo": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771586858/koli/ClientsWeServed/pepvaujjken8bdtnhkjp.png"
+    },
+    {
+      "id": 6,
+      "name": "HDFC Bank",
+      "industry": "Banking & Finance",
+      "logo": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771586899/koli/ClientsWeServed/rrdcxwar4l78x18t5ait.png"
+    },
+    {
+      "id": 7,
+      "name": "Jodi",
+      "industry": "Social Networking",
+      "logo": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771586930/koli/ClientsWeServed/adstybsvb5eemwfdzzen.png"
+    },
+    {
+      "id": 8,
+      "name": "Ooredoo",
+      "industry": "Telecommunications",
+      "logo": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771586973/koli/ClientsWeServed/kzbpmvfbjon3cq6nauvf.png"
+    },
+    {
+      "id": 9,
+      "name": "Setflow",
+      "industry": "Business Solutions",
+      "logo": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771587015/koli/ClientsWeServed/js7kckdokhudtsjfxo0g.png"
+    },
+    {
+      "id": 10,
+      "name": "Turing",
+      "industry": "Technology & Recruitment",
+      "logo": "https://res.cloudinary.com/dmpknadzu/image/upload/v1772079887/koli/clientsWeServed/uwkfcqw8oexlwoe76nal.png"
+    },
+    {
+      "id": 11,
+      "name": "Worxogo",
+      "industry": "Artificial Intelligence",
+      "logo": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771663498/koli/ClientsWeServed/ft9nwfmsrul0m0fg75gs.png"
+    },
+    {
+      "id": 12,
+      "name": "Softedge",
+      "industry": "Information Technology",
+      "logo": "https://res.cloudinary.com/dmpknadzu/image/upload/v1773660223/koli/ClientsWeServed/mrk0dhymls03nuckifcf.png"
+    }
+  ]

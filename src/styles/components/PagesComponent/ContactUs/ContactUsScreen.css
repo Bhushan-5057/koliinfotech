@@ -1,0 +1,8 @@
+.grayscale-map {
+               filter: grayscale(100%) contrast(1.1) brightness(0.95);
+               transition: filter 1s ease;
+            }
+
+            .grayscale-map:hover {
+               filter: grayscale(0%) contrast(1.05) brightness(1);
+            }

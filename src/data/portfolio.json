@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "HDFC Bank",
+    "category": "Banking & Finance",
+    "outcome": "Secure digital banking with 99.9% uptime",
+    "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771415308/koli/portfolio/zmzgmpmoqjyrf4eshvgg.png",
+    "description": "Built secure and scalable digital banking solutions with a focus on seamless transactions, high availability, and customer experience.",
+    "technologies": ["React", "Node.js", "PostgreSQL", "AWS"]
+  },
+  {
+    "id": 2,
+    "title": "Astrosadhna",
+    "category": "Astrology Platform",
+    "outcome": "AI-powered predictions with 50K+ active users",
+    "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771415342/koli/portfolio/xregdtwqrfxko2ytx1th.png",
+    "description": "Developed an AI-powered astrology platform delivering personalized predictions, consultations, and engaging user experiences.",
+    "technologies": ["React Native", "Node.js", "MongoDB", "AI"]
+  },
+  {
+    "id": 3,
+    "title": "Byju's Learning App",
+    "category": "EdTech",
+    "outcome": "Interactive learning platform serving millions",
+    "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771415513/koli/portfolio/gibqncykjw80apljo2jj.png",
+    "description": "Created an interactive learning platform with engaging educational content, performance tracking, and scalable infrastructure.",
+    "technologies": ["React", "Node.js", "MongoDB", "AWS"]
+  },
+  {
+    "id": 4,
+    "title": "Ooredoo Telecom",
+    "category": "Telecommunications",
+    "outcome": "Enterprise cloud migration across 10+ regions",
+    "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771415601/koli/portfolio/noodas5e4ajo6qmad4ho.png",
+    "description": "Delivered enterprise telecom solutions focused on cloud infrastructure, digital transformation, and operational efficiency.",
+    "technologies": ["Angular", "Java", "Docker", "AWS"]
+  },
+  {
+    "id": 5,
+    "title": "Turing",
+    "category": "Talent Marketplace",
+    "outcome": "Scalable platform connecting 1M+ developers globally",
+    "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1772079969/koli/portfolio/ixp0drr09nvnjvhpok3y.png",
+    "description": "Designed scalable recruitment solutions connecting global software developers with leading technology companies.",
+    "technologies": ["React", "Node.js", "PostgreSQL", "Docker"]
+  },
+  {
+    "id": 6,
+    "title": "Axis Bank",
+    "category": "Banking & Finance",
+    "outcome": "Modern banking UI with enterprise-grade security",
+    "image": "https://res.cloudinary.com/dmpknadzu/image/upload/v1771415724/koli/portfolio/uabs1j7jy6pae8ugacte.png",
+    "description": "Built secure banking applications with modern user interfaces, optimized workflows, and enterprise-grade security standards.",
+    "technologies": ["React", "Node.js", "PostgreSQL", "AWS"]
+  }
+]

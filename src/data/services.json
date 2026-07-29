@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Web Application Development",
+    "icon": "",
+    "description": "Build fast, secure, and SEO-optimized web applications with React, Next.js, and modern frameworks that drive business growth."
+  },
+  {
+    "id": 2,
+    "title": "Mobile Application Development",
+    "icon": "",
+    "description": "Native and cross-platform Android & iOS apps with intuitive UX, offline support, and scalable architecture."
+  },
+  {
+    "id": 3,
+    "title": "AI & Machine Learning",
+    "icon": "",
+    "description": "Integrate AI chatbots, predictive analytics, and intelligent automation to reduce costs and improve decision-making."
+  },
+  {
+    "id": 4,
+    "title": "Cloud & DevOps",
+    "icon": "",
+    "description": "AWS, Azure, Docker, and CI/CD pipelines for reliable deployment, monitoring, and 99.9% uptime."
+  },
+  {
+    "id": 5,
+    "title": "Custom Software Development",
+    "icon": "",
+    "description": "Tailored ERP, CRM, and business automation systems designed around your unique workflows and goals."
+  },
+  {
+    "id": 6,
+    "title": "QA & Testing",
+    "icon": "",
+    "description": "Comprehensive manual and automated testing to ensure bug-free, secure, and high-performance releases."
+  },
+  {
+    "id": 7,
+    "title": "UI/UX Design",
+    "icon": "",
+    "description": "User-centered interfaces, wireframes, and prototypes that improve engagement and conversion rates."
+  },
+  {
+    "id": 8,
+    "title": "Ecommerce Development",
+    "icon": "",
+    "description": "Full-featured online stores with payment gateways, inventory management, and conversion optimization."
+  },
+  {
+    "id": 9,
+    "title": "Hire Developers",
+    "icon": "",
+    "description": "Dedicated developers, designers, and QA engineers on flexible engagement models — scale your team instantly."
+  },
+  {
+    "id": 10,
+    "title": "SEO & Digital Marketing",
+    "icon": "",
+    "description": "Data-driven SEO, Google Ads, social media marketing, and CRO strategies that generate qualified leads and measurable growth."
+  }
+]

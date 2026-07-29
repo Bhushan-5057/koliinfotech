@@ -1,0 +1,16 @@
+{
+  "name": "KOLI Infotech",
+  "short_name": "KOLI",
+  "description": "Custom Software, Web & Mobile App Development Company",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f0f4ff",
+  "theme_color": "#3f689f",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}

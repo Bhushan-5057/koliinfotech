@@ -1,0 +1,244 @@
+[
+  {
+    "id": 1,
+    "title": "How AI Is Reshaping Business Strategy in 2026",
+    "slug": "ai-in-business-strategy-2026",
+    "category": "Artificial Intelligence",
+    "author": "KOLI Infotech Team",
+    "readTime": "9 min read",
+    "publishedDate": "July 2, 2026",
+    "excerpt": "Artificial intelligence has moved from experimental pilots to board-level strategy. Learn how forward-thinking companies are using AI to cut costs, unlock revenue, and build durable competitive advantage.",
+    "seoDescription": "Discover how AI is reshaping business strategy in 2026 — practical use cases, ROI frameworks, adoption roadmaps, and pitfalls to avoid for mid-market and enterprise teams.",
+    "tags": [
+      "AI",
+      "Business Strategy",
+      "Digital Transformation",
+      "Automation"
+    ],
+    "image": "../assets/images/aiblogs.jpg",
+    "banner": "",
+    "description": "Artificial intelligence has moved from experimental pilots to board-level strategy. Learn how forward-thinking companies are using AI to cut costs, unlock revenue, and build durable competitive advantage."
+  },
+  {
+    "id": 2,
+    "title": "Generative AI for Product Teams: From Prototypes to Production",
+    "slug": "generative-ai-for-product-teams",
+    "category": "Generative AI",
+    "author": "KOLI Infotech Team",
+    "readTime": "10 min read",
+    "publishedDate": "July 5, 2026",
+    "excerpt": "Generative AI can accelerate roadmaps — or create technical debt. This guide shows product and engineering leaders how to ship GenAI features that are reliable, secure, and measurable.",
+    "seoDescription": "A practical guide to shipping generative AI features: architecture patterns, evaluation, safety guardrails, cost control, and production readiness for product teams.",
+    "tags": [
+      "Generative AI",
+      "LLM",
+      "Product Development",
+      "MLOps"
+    ],
+    "image": "../assets/images/generativeai.jpg",
+    "banner": "",
+    "description": "Generative AI can accelerate roadmaps — or create technical debt. This guide shows product and engineering leaders how to ship GenAI features that are reliable, secure, and measurable."
+  },
+  {
+    "id": 3,
+    "title": "AI Agents Explained: Building Autonomous Workflows That Actually Work",
+    "slug": "ai-agents-autonomous-workflows",
+    "category": "AI Agents",
+    "author": "KOLI Infotech Team",
+    "readTime": "11 min read",
+    "publishedDate": "July 8, 2026",
+    "excerpt": "AI agents promise hands-free operations, but most fail without clear goals, tools, and guardrails. Learn how to design agentic systems that deliver real business outcomes.",
+    "seoDescription": "Learn how to design reliable AI agents for business workflows — tool use, memory, evaluation, human-in-the-loop controls, and production architecture patterns.",
+    "tags": [
+      "AI Agents",
+      "Automation",
+      "LLM",
+      "Workflows"
+    ],
+    "image": "../assets/images/aiagents.jpg",
+    "banner": "",
+    "description": "AI agents promise hands-free operations, but most fail without clear goals, tools, and guardrails. Learn how to design agentic systems that deliver real business outcomes."
+  },
+  {
+    "id": 4,
+    "title": "What Is MCP? Model Context Protocol for Modern AI Integrations",
+    "slug": "what-is-mcp-model-context-protocol",
+    "category": "MCP",
+    "author": "KOLI Infotech Team",
+    "readTime": "8 min read",
+    "publishedDate": "July 10, 2026",
+    "excerpt": "Model Context Protocol (MCP) is changing how AI systems connect to tools and data. Understand what MCP is, why it matters, and how teams can adopt it without chaos.",
+    "seoDescription": "A clear explanation of Model Context Protocol (MCP): how it works, why developers use it, integration patterns, security considerations, and enterprise adoption tips.",
+    "tags": [
+      "MCP",
+      "AI Integration",
+      "Developer Tools",
+      "Architecture"
+    ],
+    "image": "../assets/images/mcp.jpg",
+    "banner": "",
+    "description": "Model Context Protocol (MCP) is changing how AI systems connect to tools and data. Understand what MCP is, why it matters, and how teams can adopt it without chaos."
+  },
+  {
+    "id": 5,
+    "title": "SaaS Development Playbook: Building Scalable Products in 2026",
+    "slug": "saas-development-playbook-2026",
+    "category": "SaaS Development",
+    "author": "KOLI Infotech Team",
+    "readTime": "10 min read",
+    "publishedDate": "July 12, 2026",
+    "excerpt": "Shipping a SaaS product is more than writing code. This playbook covers architecture, multi-tenancy, billing, onboarding, and growth loops that scale with your customers.",
+    "seoDescription": "Complete SaaS development playbook for 2026 covering multi-tenancy, billing, security, observability, onboarding UX, and scaling strategies for product teams.",
+    "tags": [
+      "SaaS",
+      "Product Engineering",
+      "Multi-tenancy",
+      "Cloud"
+    ],
+    "image": "../assets/images/saasdev.jpg",
+    "banner": "",
+    "description": "Shipping a SaaS product is more than writing code. This playbook covers architecture, multi-tenancy, billing, onboarding, and growth loops that scale with your customers."
+  },
+  {
+    "id": 6,
+    "title": "Cloud Migration Done Right: A Risk-Aware Roadmap for Growing Companies",
+    "slug": "cloud-migration-roadmap",
+    "category": "Cloud Migration",
+    "author": "KOLI Infotech Team",
+    "readTime": "9 min read",
+    "publishedDate": "July 14, 2026",
+    "excerpt": "Cloud migration fails when it is treated as a lift-and-shift checkbox. Use this phased roadmap to modernize infrastructure with clear ROI, security, and operational readiness.",
+    "seoDescription": "Step-by-step cloud migration roadmap with assessment, wave planning, security, cost optimization, and cutover strategies for mid-market businesses.",
+    "tags": [
+      "Cloud",
+      "AWS",
+      "Azure",
+      "Migration",
+      "DevOps"
+    ],
+    "image": "../assets/images/cloudmigration.jpg",
+    "banner": "",
+    "description": "Cloud migration fails when it is treated as a lift-and-shift checkbox. Use this phased roadmap to modernize infrastructure with clear ROI, security, and operational readiness."
+  },
+  {
+    "id": 7,
+    "title": "DevOps for Fast Teams: CI/CD, Observability, and Reliable Releases",
+    "slug": "devops-ci-cd-observability",
+    "category": "DevOps",
+    "author": "KOLI Infotech Team",
+    "readTime": "8 min read",
+    "publishedDate": "July 16, 2026",
+    "excerpt": "Speed without reliability is expensive. Learn the DevOps practices that help product teams ship weekly — with confidence, visibility, and fewer production surprises.",
+    "seoDescription": "DevOps best practices for modern teams: CI/CD pipelines, infrastructure as code, observability, incident response, and release reliability.",
+    "tags": [
+      "DevOps",
+      "CI/CD",
+      "Observability",
+      "SRE"
+    ],
+    "image": "../assets/images/devops.jpg",
+    "banner": "",
+    "description": "Speed without reliability is expensive. Learn the DevOps practices that help product teams ship weekly — with confidence, visibility, and fewer production surprises."
+  },
+  {
+    "id": 8,
+    "title": "FinTech Software Development: Security, Compliance, and Speed",
+    "slug": "fintech-software-development-guide",
+    "category": "FinTech",
+    "author": "KOLI Infotech Team",
+    "readTime": "10 min read",
+    "publishedDate": "July 18, 2026",
+    "excerpt": "FinTech products must balance trust and velocity. Explore architecture, compliance, fraud controls, and delivery practices that keep financial platforms secure and competitive.",
+    "seoDescription": "FinTech software development guide covering compliance, security architecture, payments, fraud prevention, and agile delivery for financial products.",
+    "tags": [
+      "FinTech",
+      "Payments",
+      "Security",
+      "Compliance"
+    ],
+    "image": "../assets/images/fintech.jpg",
+    "banner": "",
+    "description": "FinTech products must balance trust and velocity. Explore architecture, compliance, fraud controls, and delivery practices that keep financial platforms secure and competitive."
+  },
+  {
+    "id": 9,
+    "title": "Healthcare Software That Clinicians Actually Use",
+    "slug": "healthcare-software-that-clinicians-use",
+    "category": "Healthcare Software",
+    "author": "KOLI Infotech Team",
+    "readTime": "9 min read",
+    "publishedDate": "July 19, 2026",
+    "excerpt": "Healthcare IT often fails at the bedside. Learn how to design clinical workflows, privacy-first architecture, and interoperable systems that improve care instead of slowing it down.",
+    "seoDescription": "How to build healthcare software clinicians trust: UX for clinical workflows, HIPAA-minded architecture, interoperability, and measurable care outcomes.",
+    "tags": [
+      "Healthcare",
+      "HIPAA",
+      "Interoperability",
+      "UX"
+    ],
+    "image": "../assets/images/healthcare.jpg",
+    "banner": "",
+    "description": "Healthcare IT often fails at the bedside. Learn how to design clinical workflows, privacy-first architecture, and interoperable systems that improve care instead of slowing it down."
+  },
+  {
+    "id": 10,
+    "title": "Cybersecurity Essentials for Growing Digital Businesses",
+    "slug": "cybersecurity-essentials-digital-businesses",
+    "category": "Cyber Security",
+    "author": "KOLI Infotech Team",
+    "readTime": "8 min read",
+    "publishedDate": "July 20, 2026",
+    "excerpt": "You do not need an enterprise security budget to reduce major risk. This checklist covers the high-impact controls every growing digital business should implement first.",
+    "seoDescription": "Practical cybersecurity essentials for SMBs and digital product companies: MFA, access control, secure SDLC, monitoring, backups, and incident response.",
+    "tags": [
+      "Cybersecurity",
+      "AppSec",
+      "Risk Management",
+      "Compliance"
+    ],
+    "image": "../assets/images/cybersecurity.jpg",
+    "banner": "",
+    "description": "You do not need an enterprise security budget to reduce major risk. This checklist covers the high-impact controls every growing digital business should implement first."
+  },
+  {
+    "id": 11,
+    "title": "Web Development Trends That Will Matter Through 2027",
+    "slug": "web-development-trends-2027",
+    "category": "Web Development",
+    "author": "KOLI Infotech Team",
+    "readTime": "9 min read",
+    "publishedDate": "July 21, 2026",
+    "excerpt": "Frameworks change fast, but durable web product advantages do not. Explore the trends worth investing in — performance, edge delivery, AI-assisted UX, and platform engineering.",
+    "seoDescription": "Key web development trends for 2026–2027: performance, edge computing, AI-assisted interfaces, design systems, and scalable frontend architecture.",
+    "tags": [
+      "Web Development",
+      "Frontend",
+      "Performance",
+      "Next.js"
+    ],
+    "image": "../assets/images/webDevimg-2.webp",
+    "banner": "",
+    "description": "Frameworks change fast, but durable web product advantages do not. Explore the trends worth investing in — performance, edge delivery, AI-assisted UX, and platform engineering."
+  },
+  {
+    "id": 12,
+    "title": "Mobile App Development & UI/UX Trends Startups Should Prioritize",
+    "slug": "mobile-app-uiux-trends-startups",
+    "category": "Mobile App Development",
+    "author": "KOLI Infotech Team",
+    "readTime": "9 min read",
+    "publishedDate": "July 22, 2026",
+    "excerpt": "Startups win on clarity and retention, not feature count. See which mobile engineering and UI/UX trends actually improve activation, engagement, and conversion.",
+    "seoDescription": "Mobile app and UI/UX trends for startups: cross-platform choices, onboarding patterns, accessibility, performance budgets, and retention-focused design.",
+    "tags": [
+      "Mobile",
+      "UI/UX",
+      "Startups",
+      "React Native",
+      "Flutter"
+    ],
+    "image": "../assets/images/mobile_app_dev.webp",
+    "banner": "",
+    "description": "Startups win on clarity and retention, not feature count. See which mobile engineering and UI/UX trends actually improve activation, engagement, and conversion."
+  }
+]

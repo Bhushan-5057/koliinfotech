@@ -1,0 +1,352 @@
+.cs-hero-badge {
+  display: inline-block;
+  padding: 6px 16px;
+  background: #3f689f12;
+  color: #3f689f;
+  border-radius: 100px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1.5rem;
+}
+
+.cs-stats-strip {
+  background: #fff;
+  padding: 2rem 0;
+  border-bottom: 1px solid #edf2f8;
+}
+
+.cs-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.cs-stat {
+  text-align: center;
+  padding: 1rem;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.cs-stat.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.cs-stat-value {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 900;
+  color: #3f689f;
+  letter-spacing: -0.03em;
+}
+
+.cs-stat-label {
+  margin-top: 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #64748b;
+}
+
+.cs-filters-section {
+  padding: 3rem 0 4rem;
+  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 40%);
+}
+
+.cs-filters-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.cs-search-input {
+  width: 100%;
+  height: 52px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 0 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #0f172a;
+  background: #fff;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cs-search-input:focus {
+  outline: none;
+  border-color: #3f689f;
+  box-shadow: 0 0 0 3px rgba(63, 104, 159, 0.12);
+}
+
+.cs-industry-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.cs-filter-chip {
+  border: 1px solid #e2e8f0;
+  background: #fff;
+  color: #475569;
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cs-filter-chip:hover {
+  border-color: #3f689f55;
+  color: #3f689f;
+}
+
+.cs-filter-chip.is-active {
+  background: #3f689f;
+  border-color: #3f689f;
+  color: #fff;
+}
+
+.cs-results-meta {
+  margin-bottom: 1.5rem;
+  color: #64748b;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.cs-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+}
+
+.cs-card {
+  height: 100%;
+  background: #fff;
+  border: 1px solid #edf2f8;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(63, 104, 159, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.cs-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(63, 104, 159, 0.12);
+  border-color: #3f689f33;
+}
+
+.cs-card-media {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  min-height: 180px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #3f689f 0%, #5b8ec4 55%, #60a5fa 100%);
+}
+
+.cs-card-image {
+  transition: transform 0.55s ease;
+}
+
+.cs-card:hover .cs-card-image {
+  transform: scale(1.05);
+}
+
+.cs-card-media-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(15, 23, 42, 0) 40%,
+    rgba(15, 23, 42, 0.45) 100%
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+.cs-card-media-label {
+  position: absolute;
+  left: 1rem;
+  bottom: 0.9rem;
+  z-index: 2;
+  color: #fff;
+  font-weight: 800;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.35);
+}
+
+.cs-card-placeholder {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 1.25rem;
+}
+
+.cs-card-placeholder span {
+  color: rgba(255, 255, 255, 0.92);
+  font-weight: 800;
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.cs-card-body {
+  padding: 1.4rem 1.5rem 1.5rem;
+}
+
+.cs-card-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.cs-card-industry {
+  color: #3f689f;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.cs-card-duration {
+  color: #94a3b8;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.cs-card-title {
+  font-size: 1.2rem;
+  font-weight: 850;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.35rem;
+  line-height: 1.35;
+}
+
+.cs-card-client {
+  color: #64748b;
+  font-size: 0.88rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.cs-card-excerpt {
+  color: #475569;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.cs-tech-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.cs-tech-badge {
+  background: #f1f5f9;
+  color: #334155;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.3rem 0.55rem;
+  border-radius: 6px;
+}
+
+.cs-card-cta {
+  color: #3f689f;
+  font-weight: 800;
+  font-size: 0.88rem;
+}
+
+.cs-empty {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #64748b;
+}
+
+.cs-cta-section {
+  background: #3f689f0d;
+  padding: 4rem 0;
+}
+
+.cs-cta-section h2 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 900;
+  color: #0f172a;
+  margin-bottom: 0.75rem;
+}
+
+.cs-cta-section p {
+  color: #64748b;
+  max-width: 560px;
+  margin: 0 auto 1.5rem;
+  line-height: 1.7;
+}
+
+.cs-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0.75rem 1.75rem;
+  border-radius: 999px;
+  background: #3f689f;
+  color: #fff !important;
+  font-weight: 800;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-decoration: none !important;
+  box-shadow: 0 10px 24px rgba(63, 104, 159, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cs-cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px rgba(63, 104, 159, 0.3);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 991px) {
+  .cs-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 575px) {
+  .cs-stats-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+
+  .cs-card-media {
+    min-height: 150px;
+    aspect-ratio: 16 / 10;
+  }
+}
