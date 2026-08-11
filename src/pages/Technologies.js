@@ -2,7 +2,7 @@ import { useState } from "react";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import html5Image from "../assets/images/html.webp";
-import React from "../assets/images/React.webp";
+import React from "../assets/images/react.webp";
 import css from "../assets/images/css3.webp";
 import js from "../assets/images/js.webp";
 import nodejs from "../assets/images/nodejs.webp";

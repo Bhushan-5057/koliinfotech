@@ -1,5 +1,5 @@
 import Vuejs from "../assets/images/vuejs.webp";
-import reactImage from "../assets/images/React.webp";
+import reactImage from "../assets/images/react.webp";
 import Nextjs from "../assets/images/nextjs.webp";
 import angular from "../assets/images/angularjs.webp";
 import nodejs from "../assets/images/nodejs.webp";
