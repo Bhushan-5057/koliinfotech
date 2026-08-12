@@ -1,6 +1,6 @@
 ﻿import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import KoliLogo from "../assets/Logo/KoliLogo1.png";
+import KoliLogo from "../assets/Logo/koli_logo.png";
 import IndianFlag from "../assets/images/indian-flag.svg";
 import "./FloatingCallWidget.css";
 
