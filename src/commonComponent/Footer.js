@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import KoliLogo1 from "../assets/Logo/KOLI_LOGO.png";
+import KoliLogo1 from "../assets/Logo/koli_logo.png";
 import hiring from "../assets/images/hiring.webp";
 import IndianFlag from "../assets/images/indian-flag.svg"
 import CanadaFlag from "../assets/images/canada-flag.svg"
